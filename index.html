@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DF-16-Presentation</title>
+	
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	
+	<!-- fontawsome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="main-wrapper col-lg-12 col-md-12">
+      <div class="logo-container col-lg-3 col-md-3" id="rotate3D">
+		<img src="images/logo.svg" />
+	  </div>
+	  <div class="col-lg-6 col-md-6 mid-title">
+		<h1>We help innovators build products</h1>
+	  </div>
+	  <div class="df-logo col-lg-3 col-md-3">
+		<img src="images/dreamforce-logo.png" />
+	  </div>
+    </div>
+	<!--<div class="slider-area col-lg-11 col-md-11">
+		<div class="col-lg-10 col-md-10 slide-area" id="slide-area-1">
+			<div class="inner-img-container">
+				<img src="images/blackpurl-logo.png" alt="" title="" />
+			</div>l
+		</div>
+		<div class="col-lg-5 col-md-5 slide-area" id="slide-area-2">
+			<div class="inner-img-container">
+				<img src="images/blackpurl-logo.png" alt="" title="" />
+			</div>
+		</div>
+	</div>-->
+	<div class="df-menus col-lg-12 col-md-12">
+		<div class="col-lg-5 col-md-5 custom-panel first-block">
+			<h1 class="panel-heading">Our Clients</h1>
+			<ul class="menu-list" id="gallery-list">
+				
+			</ul>
+		</div>
+		<div class="col-lg-3 col-md-3 custom-panel second-block">		
+			<h1 class="panel-heading">Description</h1>
+			<div class="description-content" id="desc-content">
+				<div class="base-content">
+					<div class="img-container">
+						<img src="images/blackpurl-logo.png" class="desc-img" alt=""/>
+					</div>
+					<div class="row-content">
+					<h2 class="about-heading domain-heading-style"><span class="domain values"></span></h2>					
+					</div>
+					<div class="row-content">
+					<h2 class="about-heading">Summary</h2>
+					<p class="about-txt summary"></p>
+					</div>
+					<div class="row-content">
+					<h2 class="about-heading">Tools & Technologies</h2>
+					<p class="about-txt innovation"></p>
+					</div>
+					<div class="row-content">					
+					<h2 class="about-heading">Team Size : <span class="teamsize values"></span></h2>					
+					</div>					
+				</div>
+				
+			</div>
+			<div class="play-pause-contianer">
+							<a href="#" id="stop-slide"><i class="fa fa-stop-circle-o" aria-hidden="true"></i></a>
+							<a href="#" id="play-slide"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+						</div>
+		</div>
+		<div class="right-item-list col-lg-3 col-md-3 custom-panel third-block">
+			<h1 class="panel-heading">Our Experties</h1>
+			<div class="list-group" id="list-group-container">
+				<div class="list-content">
+					<div class="img-container">
+						<img src="images/zippia-logo.png" class="desc-img" alt=""/>
+					</div>
+					<div class="clearfix"></div>
+					<h2 class="about-heading">Domain : <span class="domain values"></span></h2>					
+					<h2 class="about-heading">Summary</h2>
+					<p class="about-txt summary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					
+					<h2 class="about-heading">Innovation</h2>
+					<p class="about-txt innovation">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+					
+				</div>	
+				
+			</div>
+		</div>
+		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
+			<h2 class="about-heading">About Metacube</h2>
+			<ul class="about-lising">
+				<li>Started in 2004</li>
+				<li>Salesforce PDO partners since 2007</li>
+				<li>More than 400 engineers</li>
+				<li>170+ Salesforce expert with 100+ certified professionals</li>
+				<li>Based in Jaipur, India</li>
+			</ul>
+		</div>
+	</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+   
+   var createPriorityArray = [];
+	var slidecounter = 0;
+	var descriptionInterval;
+	var desccounter = 0;
+	var playDescSlider = true;
+	$(window).load(function(){
+		$.ajax({
+		  url: "json/thum-list.json",
+		  success: function(data){
+			console.log(data);
+			renderAllThums(data);
+			resizeEachBlock(data);
+			
+			$("#stop-slide").click(function(){
+				clearInterval(descriptionInterval);
+				var getdescounter = desccounter;
+				playDescSlider = false;
+				$("#desc-content .base-content").addClass("in");
+				$("#play-slide").show();
+				return false;
+			})
+			$("#play-slide").click(function(){
+				playDescSlider = true;
+				renderDescriptionItems(data,data.gallerywidget.galleryimages);
+				$("#play-slide").hide();
+				return false;
+			})
+			
+			$("#gallery-list li.gallery-img").click(function(){
+				clearInterval(descriptionInterval);
+				playDescSlider = false;
+				var getCounter = $(this).attr("id").split("img")[1];
+				loadContentOnClick(data,data.gallerywidget.galleryimages,getCounter );
+				desccounter = getCounter;
+				$("#play-slide").show();
+			})
+		  },
+		  error: function(e){
+			console.log(e);
+		  }
+		});
+		
+	})
+	
+	function renderAllThums(imgdata){
+		galleryData = imgdata.gallerywidget.galleryimages;
+		experTiesData = imgdata.gallerywidget.experties;
+		for(var i = 0; i < galleryData.length; i++){
+			$("#gallery-list").append('<li class="gallery-img col-lg-4 col-md-4" id="img'+i+'"><div class="inner-img" style="background:url('+imgdata.gallerywidget.imagepath+galleryData[i].imagename+')"></div></li>');
+		}
+		
+		setTimeout(function(){ addAnimation(galleryData,galleryData.length); }, 1000);
+		
+		setTimeout(function(){renderDescriptionItems(imgdata,galleryData); $("#gallery-list li.gallery-img:first-child").trigger("click");
+		$("#play-slide").trigger("click");}, 1000)
+		//setTimeout(function(){renderExpertiesItem(imgdata,experTiesData)}, 1000)
+		
+		for(var i = 0; i<imgdata.gallerywidget.galleryimages.length; i++){
+			if(imgdata.gallerywidget.galleryimages[i].priority){
+				//alert(imgdata.gallerywidget.galleryimages[i].priority)
+				createPriorityArray[(parseInt(imgdata.gallerywidget.galleryimages[i].priority) - 1)] = imgdata.gallerywidget.galleryimages[i].imagename;
+				
+			}
+		}
+		console.log(createPriorityArray[0]);
+		console.log(createPriorityArray);
+		//loadBigSlide(createPriorityArray,slidecounter);
+		//loadBiGSlide2(imgdata.gallerywidget.galleryimages,slidecounter);
+		
+	}
+	function rearrangeAllTiles(row,col){
+		//alert(col);
+		
+		var getWidth = 10 * col;
+		//alert(getWidth);
+		var getHeight = ($(".first-block").height() / row);
+		$(".first-block .menu-list .gallery-img").each(function(){
+			$(this).css("width",getWidth+"%");
+			$(this).height(Math.round(getHeight));
+		})
+	}
+	function renderExpertiesItem(imgdata,galleryData){
+		var counter = 0;
+		setInterval(function(){ 
+			addAfterListContentAnimation(imgdata,galleryData,counter);
+			if(counter < (galleryData.length - 1)){
+				counter++;
+			}else{
+				counter = 0;
+			}
+		}, 5000);
+	}
+	function renderDescriptionItems(imgdata,galleryData){
+		descriptionInterval = setInterval(function(){ 
+			addAftercontentAnimation(imgdata,galleryData,desccounter);
+			if(desccounter < (galleryData.length - 1)){
+				desccounter++;
+			}else{
+				desccounter = 0;
+			}
+		}, 10000);
+	}
+	
+	function addAftercontentAnimation(imgdata,galleryData,counter){
+		$("#desc-content .base-content").addClass("in");
+		if(galleryData[counter].desc && galleryData[counter].desc != ""){
+			$("#desc-content .base-content .img-container").css("display","block");
+			$("#desc-content .base-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+'desc/'+galleryData[counter].desc);
+		}else{
+			$("#desc-content .base-content .img-container").css("display","none");
+		}
+		if(galleryData[counter].content.domain && galleryData[counter].content.domain != ""){
+			$("#desc-content .base-content .domain").parent().css("display","block");
+			$("#desc-content .base-content .domain").html(galleryData[counter].content.domain);
+		}else{
+			$("#desc-content .base-content .domain").parent().css("display","none");
+			
+		}
+		if(galleryData[counter].content.summary && galleryData[counter].content.summary != ""){
+			$("#desc-content .base-content .summary").parent().css("display","block");
+			$("#desc-content .base-content .summary").html(galleryData[counter].content.summary);
+		}else{
+			$("#desc-content .base-content .summary").parent().css("display","none");
+		}
+		if(galleryData[counter].content.teamsize && galleryData[counter].content.teamsize != ""){
+			$("#desc-content .base-content .teamsize").parent().css("display","block");
+			$("#desc-content .base-content .teamsize").html(galleryData[counter].content.teamsize);
+		}else{
+			$("#desc-content .base-content .teamsize").parent().css("display","none");
+		}
+		if(galleryData[counter].content.technology && galleryData[counter].content.technology != ""){
+			$("#desc-content .base-content .innovation").parent().css("display","block");
+			$("#desc-content .base-content .innovation").html(galleryData[counter].content.technology);		
+		}else{
+			$("#desc-content .base-content .innovation").parent().css("display","none");
+		}
+		setTimeout(function(){ if(playDescSlider){$("#desc-content .base-content").removeClass("in");} }, 7000);
+		
+	}
+	
+	function loadContentOnClick(imgdata,galleryData,counter){
+		$("#desc-content .base-content").addClass("in");
+		if(galleryData[counter].desc && galleryData[counter].desc != ""){
+			$("#desc-content .base-content .img-container").css("display","block");
+			$("#desc-content .base-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+'desc/'+galleryData[counter].desc);
+		}else{
+			$("#desc-content .base-content .img-container").css("display","none");
+		}
+		if(galleryData[counter].content.domain && galleryData[counter].content.domain != ""){
+			$("#desc-content .base-content .domain").parent().css("display","block");
+			$("#desc-content .base-content .domain").html(galleryData[counter].content.domain);
+		}else{
+			$("#desc-content .base-content .domain").parent().css("display","none");
+			
+		}
+		if(galleryData[counter].content.summary && galleryData[counter].content.summary != ""){
+			$("#desc-content .base-content .summary").parent().css("display","block");
+			$("#desc-content .base-content .summary").html(galleryData[counter].content.summary);
+		}else{
+			$("#desc-content .base-content .summary").parent().css("display","none");
+		}
+		if(galleryData[counter].content.teamsize && galleryData[counter].content.teamsize != ""){
+			$("#desc-content .base-content .teamsize").parent().css("display","block");
+			$("#desc-content .base-content .teamsize").html(galleryData[counter].content.teamsize);
+		}else{
+			$("#desc-content .base-content .teamsize").parent().css("display","none");
+		}
+		if(galleryData[counter].content.technology && galleryData[counter].content.technology != ""){
+			$("#desc-content .base-content .innovation").parent().css("display","block");
+			$("#desc-content .base-content .innovation").html(galleryData[counter].content.technology);		
+		}else{
+			$("#desc-content .base-content .innovation").parent().css("display","none");
+		}	
+		//setTimeout(function(){ if(playDescSlider){$("#desc-content .base-content").removeClass("in");} }, 3000);		
+	}
+	
+	function addAfterListContentAnimation(imgdata,galleryData,counter){		
+		$("#list-group-container .list-content").addClass("in");
+		$("#list-group-container .list-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+galleryData[counter].imagename);
+		$("#list-group-container .list-content .domain").html(galleryData[counter].content.domain);
+		$("#list-group-container .list-content .summary").html(galleryData[counter].content.summary);
+		$("#list-group-container .list-content .teamsize").html(galleryData[counter].content.teamsize);
+		$("#list-group-container .list-content .innovation").html(galleryData[counter].content.innovation);	
+		setTimeout(function(){ $("#list-group-container .list-content").removeClass("in"); }, 3000);
+	}
+	function loadBigSlide(ojb,num){
+		setInterval(function(){ 
+			runBigSlide(ojb,num);
+			if(num < (ojb.length - 1)){
+				num = num + 1;
+				
+			}else{
+				num = slidecounter;
+			}
+			
+		}, 2500);
+		
+		setInterval(function(){ 
+			addBigSliderAnim();			
+		}, 5000);
+	}
+	function runBigSlide(obj,num){
+		$("#slide-area-1 .inner-img-container img").attr("src", "images/" + obj[num]);
+	}
+	function runBigSlide2(obj,num){
+		if($("#slide-area-2 .inner-img-container").hasClass("zoomin") == false){
+			$("#slide-area-2 .inner-img-container").addClass("zoomin");
+		}else{
+			$("#slide-area-2 .inner-img-container").removeClass("zoomin");
+		}
+		$("#slide-area-2 .inner-img-container img").attr("src", "images/" + obj[num].imagename);
+	}
+	function loadBiGSlide2(obj,num){
+		setInterval(function(){ 
+			runBigSlide2(obj,num);
+			if(num < (obj.length - 1)){
+				num = num + 1;
+				
+			}else{
+				num = slidecounter;
+			}
+			
+		}, 2500);
+		
+		
+	}
+	function addBigSliderAnim(){
+		if($("#slide-area-1 .inner-img-container").hasClass("rotate") == false){
+			$("#slide-area-1 .inner-img-container").addClass("rotate");		
+		}else{
+			$("#slide-area-1 .inner-img-container").removeClass("rotate");		
+		}
+	}
+	function addAnimation(items,num){
+		$("#gallery-list li.gallery-img").each(function(i){
+			$(this).addClass("in");
+			$(this).css("transition",'all '+(i+1)*0.2+'s');
+		})
+		addAfterAnimation(items);
+	}
+	function addAfterAnimation(items){
+		setInterval(function(){ intervalAnimation(items); }, 3000);
+	}
+	
+	function intervalAnimation(items){
+		getnum = Math.floor(Math.random()*items.length)
+		var item = items[Math.floor(Math.random()*items.length)];
+		$("#img" + getnum).addClass("rotate");
+		$("#img" + getnum).css("transition",'all 1.5s');
+		setTimeout(function(){ $("#img" + getnum).removeClass("rotate"); }, 1500);
+	}
+	
+	function resizeEachBlock(jsondata){
+		console.log(jsondata.gallerywidget.sections.firstblock);
+		var getTotalWidth = $(".df-menus").width();
+			var getFirstBlockWidth = getTotalWidth * (1 / 3) + 100;
+			var getSecondThirdBlockWidth = (getTotalWidth - getFirstBlockWidth) / 2;
+		if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "true" && jsondata.gallerywidget.sections.thirdblock == "true" && jsondata.gallerywidget.sections.fourthblock == "true"){
+			$(".first-block").css("display", "block");
+			$(".second-block").css("display", "block");
+			$(".third-block").css("display", "block");
+			$(".fourth-block").css("display", "block");
+			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 20));
+			
+			console.log(getTotalWidth);
+			console.log(getFirstBlockWidth);
+			$(".first-block").width(Math.round(getFirstBlockWidth) - 2);
+			$(".first-block").height($(".df-menus").height() - 30);
+			
+			$(".second-block").width(Math.round(getSecondThirdBlockWidth) - 15);
+			$(".third-block").width(Math.round(getSecondThirdBlockWidth) - 15);
+			$(".second-block").height(($(".df-menus").height() / 2) + 200);
+			$(".third-block").height(($(".df-menus").height() / 2) + 200);		
+			$(".second-block .img-container").height(($(".second-block").height() / 2)) ;
+			$(".third-block .img-container").height(($(".third-block").height() / 2));
+			rearrangeAllTiles(10,2.95);			
+		}
+		else if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "false" && jsondata.gallerywidget.sections.thirdblock == "false" && jsondata.gallerywidget.sections.fourthblock == "false"){
+			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 20));
+			$(".first-block").css("display", "block");
+			$(".second-block").css("display", "none");
+			$(".third-block").css("display", "none");
+			$(".fourth-block").css("display", "none");
+			$(".first-block").height($(".df-menus").height() - 30);
+			$(".first-block").width($(".df-menus").width() - 30);
+			rearrangeAllTiles(5,1.8);
+		}
+		else if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "true" && jsondata.gallerywidget.sections.thirdblock == "false" && jsondata.gallerywidget.sections.fourthblock == "true"){
+			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 41));
+			$(".first-block").css("display", "block");
+			$(".second-block").css("display", "block");
+			$(".third-block").css("display", "none");
+			$(".fourth-block").css("display", "block");
+			var getFirstBlockWidth = getTotalWidth * (1 / 2) + 200;
+			var getSecondBlockWidth = (getTotalWidth - getFirstBlockWidth);
+			$(".first-block").width(Math.round(getFirstBlockWidth) - 30);
+			$(".first-block").height($(".df-menus").height() - 30);
+			$(".second-block").width(Math.round(getSecondBlockWidth));
+			$(".fourth-block").width(Math.round(getSecondBlockWidth));
+			$(".second-block").height(($(".df-menus").height() / 2) + 250);
+			$(".second-block .description-content").height($(".second-block").height() - 40);
+			$(".second-block .img-container").height(($(".second-block").height() / 2) - 200) ;
+			rearrangeAllTiles(6.5,2.3);
+		}
+	}
+    </script>
+  </body>
+</html>

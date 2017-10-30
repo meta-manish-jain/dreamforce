@@ -1,0 +1,330 @@
+{"gallerywidget": {
+    "debug": "on",
+	"sections":{
+		"firstblock":"true",
+		"secondblock":"true",
+		"thirdblock":"false",
+		"fourthblock":"true"
+	},
+	"imagepath":"images/",
+	"experties":[
+		{
+			"imagename": "zippia-logo.png",
+			"content":{
+				"domain": "Java",
+				"summary":"Lorem Ipsum is simply dummy text",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"zipia-logo-600.png"
+		},
+		{
+			"imagename": "cognistix_logo.png",
+			"content":{
+				"domain": "Java",
+				"summary":"Lorem Ipsum is simply dummy text",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"cognistx-logo-600.png"
+		},
+		{
+			"imagename": "bayun_logo.png",
+			"content":{
+				"domain": "Java",
+				"summary":"Lorem Ipsum is simply dummy text",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"bayun-logo-600.png"
+		},
+		{
+			"imagename": "qcri_logo.jpg",
+			"content":{
+				"domain": "Java",
+				"summary":"Lorem Ipsum is simply dummy text",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"qcri-logo-600.png"
+		},
+		{
+			"imagename": "greenfence_logo.png",
+			"content":{
+				"domain": "Food Safety / Supply Chain",
+				"summary":"A Social platform which allows auditors, suppliers and food producers to collaborate with each other to solve the problems related to transparency and traceability in food supply chain. It seamlessly connects auditors , food growers , suppliers and retailers to collaborate among themselves using in built communication platform , message center and document storage to ensure best practice in growing , harvesting , transportation and storage are followed across their supply chains.",
+				"technology":"Java (Spring, Solr, Hibernate), Neo4j, Redis, Javascript (Angular JS), Ruby and Rails(ROR) , Heroku, Twilio, PostgreSQL, AWS (EC2, S3, IAM), Python/Django"
+			},
+			"desc":"greenfence-logo-600.png"
+		},
+		{
+			"imagename": "idc-logo.png",
+			"content":{
+				"domain": "Java",
+				"summary":"Lorem Ipsum is simply dummy text",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"idc-logo-600.png"
+		}
+	],
+    "galleryimages":[
+		{
+			"imagename": "zippia-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Career Counselling and Exploration",
+				"summary":"Zippia is a web based application that enables people make decisions regarding their career by looking at career progression trends. Its focussing on fresh graduates for now, by providing them various career paths that they can choose based on their major (and where they might end up down the line). They also have job listings integrated into their system and help candidates find appropriate entry level jobs. We have helped them engineer the entire product from scratch; backend, frontend and data science",
+				"teamsize":"",
+				"technology":"NodeJS, AngularJS, MongoDB, Python, NLP (Text Classification, Part of Speech Tagging, Noun Phrase Extraction, Data Cleaning and Clustering)"
+			},
+			"desc":"zipia-logo-600.png"
+		},
+		{
+			"imagename": "idc-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Research & Publishing",
+				"summary":"IDC's BuyerPulse Deals Database: Worldwide Services product is an online tool offering tangible metrics that helps service providers, customers, and the financial community with lead generation, purchase decisions, penetrating into specific industry, market, country as well as partner monitoring. It represents the largest and richest information repository of services deals in the world, over 65,000 services contracts representing a combined value of over $3.5 trillion.",
+				"teamsize":"9",
+				"technology":"<ul><li>Java - Programming Language. V1.8</li><li>Maven - Build automation Tool</li><li>Spring MVC - Application Framework</li><li>Hibernate - Object-relational mapping framework</li><li>SOLR  - Open source enterprise search platform</li><li>Bootstrap - Front-end web framework for designing.</li><li>Angular JS - JavaScript-based open-source</li> <li>front-end web application framework.</li><li>Tomcat - Web Server to deploy application & handle HTTP requests & responses.</li><li>Python - Programming Language. V2.7.10</li><li>Scikit-learn : Machine Learning Library NLTK : NLP Library</li><li>Mongo DB: NoSQL DB</li><li>Stanford lib: Named-Entity Tagger</li></ul>"
+			},
+			"desc":"idc-logo-600.png"
+		},
+		{
+			"imagename": "cognistix_logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Domain",
+				"summary":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+				"teamsize":"2",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"cognistx-logo-600.png"
+		},
+		{
+			"imagename": "qcri_logo.jpg",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Humanitarian",
+				"summary":"<p>AIDR (Artificial Intelligence for Digital Response) combines crowdsourcing with artificial intelligence to automatically classify urgent and important information from social media mentions related to a trending subject - disaster, global events, etc. - thereby speeding up response times. AIDR aggregates, analyses and classifies tweets, facebook feeds and text messages related to the specified subject on a large scale, enabling individuals from humanitarian relief organisations - UNESCO, TWB, OCHA - to understand and respond effectively to the situation in real time.</p><p>Metacube has helped QCRI in streamlining and stabilizing AIDR and transforming it from research project to a full fledged product. We have also integrated Facebook as an additional source and further enhancing the scope of the product. </p>",
+				"teamsize":"",
+				"technology":"Java, Spring, Hibernate, Redis, Weka, PostgreSQL, MySQL, Pybossa"
+			},
+			"desc":"qcri-logo-600.png"
+		},
+		{
+			"imagename": "greenfence_logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Food Safety / Supply Chain",
+				"summary":"A Social platform which allows auditors, suppliers and food producers to collaborate with each other to solve the problems related to transparency and traceability in food supply chain. It seamlessly connects auditors , food growers , suppliers and retailers to collaborate among themselves using in built communication platform , message center and document storage to ensure best practice in growing , harvesting , transportation and storage are followed across their supply chains.",
+				"teamsize":"26",
+				"technology":"Java (Spring, Solr, Hibernate), Neo4j, Redis, Javascript (Angular JS), Ruby and Rails(ROR) , Heroku, Twilio, PostgreSQL, AWS (EC2, S3, IAM), Python/Django"
+			},
+			"desc":"greenfence-logo-600.png"
+		},
+		
+		{
+			"imagename": "genpact-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "CRMS contact center system",
+				"summary":"<p>Project MCAS (Multi-Channel Customer Acquisition and Service) helps banks serve their customers through the channel of their choice including social media, email, live chat, phone call or SOS throughout the entire banking life cycle.</p><p>Metacube team worked on implementing interactive screen and integration to do live chat, phone calls, request customer to share screen for immediate guidance/solution, robotic chat (receiving messages from external system during chat), tips/helps during conversation with customer.</p>",
+				"teamsize":"",
+				"technology":"Salesforce, LDS (Lightning Design System)"
+			},
+			"desc":"genpact-logo-600.png"
+		},
+		{
+			"imagename": "mirage-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Computer Telephony Integration (CTI) with Salesforce",
+				"summary":"- Computer-telephony integration (CTI) integration in Salesforce (Called softphone to handle calls)<br>- handling Call history, activity for each call(Inbound,outbound,missed)<br>- Skype for business integration- Dialing rules implementation depending on International number formatting<br>- Active tab handling - in terms of softphone state management on tab changed. <br>- CTI on lightning ",
+				"teamsize":"",
+				"technology":"Salesforce"
+			},
+			"desc":"mirage-logo-600.png"
+		},
+		{
+			"imagename": "twg-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "The Warranty Group",
+				"summary":"<p>TWG which stands for The Warranty Group is one of the World's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts. Implemented online billing and payment process. Implemented claim management. Currently we are working for more than 12 customers</p>",
+				"teamsize":"36",
+				"technology":"Lightning SLDS, Angular JS and React JS for UI, Integration with Paypal services, Service Cloud, Service Console, Communities, Integration with Drawloop Spring CM, Integration with Payonomy, Native Salesforce"
+			},
+			"desc":"twg-logo-600.png"
+		},
+		{
+			"imagename": "workday-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "CRM",
+				"summary":"Workday Financial Management Connector provides complete visibility and accuracy across the quote-to-cash process. Easily integrate opportunity management data from Salesforce.com to Workday for streamlined, configurable quote-to-cash process automation.<ul><li>Quickly integrate Workday Financial Management with Salesforce CRM for simple, streamlined sales process automation.</li><li>Increase the accuracy of customer invoices, reduce days sales outstanding, and accelerate cash flow.</li><li>Improve customer satisfaction with deeper alignment between sales, finance and operations on key business initiatives.</li></ul>",
+				"teamsize":"",
+				"technology":"Lightning SLDS and Angular JS for UI, Integration with Workday web services, Apex, visualforce pages"
+			},
+			"desc":"workday-logo-600.png"
+		},
+		{
+			"imagename": "tcrm-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Dummy",
+				"summary":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+				"teamsize":"8",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"tcrm-logo-600.png"
+		},
+		{
+			"imagename": "ff-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Financial Services",
+				"summary":"Metacube team are working on different FinancialForce core product (FFA, PSA, SCM, SRP, Clicklink) development and maintenance since 2011. Did some successful integration with other products e.g. Conga Composer, Google DFP. ",
+				"teamsize":"60",
+				"technology":"Force.com, Apex, Visualforce, Batch and Scheduled Apex, Reports, Dashboards, Sencha, Flex, Paypal, Google DFP"
+			},
+			"desc":"ff-logo-600.png"
+		},
+		{
+			"imagename": "ring-dna-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Telephony, CRM application and maintaining data at salesforce side",
+				"summary":"<p>RingDNA is an enterprise sales acceleration engine and voice communications platform.</p> <p>RingDNA is committed to helping sales teams maximize their revenue through innovations in technology, data, insight and education.</p> <p>Using its Softphone product - sales reps not only can talk to customers but also can keep the call related data into salesforce.</p><p>We at metacube test Softphone and all related products.</p> <p>Test webphone and also verify the data on sales force side. We also automate webphone functions using selenium webdriver</p>",
+				"teamsize":"",
+				"technology":"JIRA-Defect Tracking<br>Slack-Team communication<br>Automation-Selenium webdriver & TestNG framework<br>Manual testing as well"
+			},
+			"desc":"ringdna-logo-600.png"
+		},
+		{
+			"imagename": "blackpurl-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Dummy",
+				"summary":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+				"teamsize":"11",
+				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+			},
+			"desc":"blackpurl-logo-600.png"
+		},
+		{
+			"imagename": "cadence_logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Embedded Systems",
+				"summary":"Metacube team (since 2013) work on various modules/tools and successfully implemented their integration with Cadence Salesforce CRM (Remedy Force, ServiceMax, Apttus, Ecosign, Conga Report Builder)",
+				"teamsize":"20",
+				"technology":"Salesforce, Bootstrap, JQuery"
+			},
+			"desc":"cadence-logo-600.png"
+		},
+		{
+			"imagename": "egnyte_logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "File sharing and storage",
+				"summary":"Egnyte for Salesforce provides a simple, secure way to access and share files from Salesforce. Egnyte Adaptive Enterprise File Services provide a unified view and centralized control to allow collaboration between Salesforce and non-Salesforce users.<ul><li>Collaborate with team members, even if they are not Salesforce users.</li><li>Share files securely with prospects and customers.</li><li>Seamlessly integrate 3rd party solutions through Egnyte including Google, Docusign and Microsoft Office.</li></ul>",
+				"teamsize":"",
+				"technology":"Canvas App built-in Java, API Integrations, Native Salesforce"
+			},
+			"desc":"egnyt-logo-600.png"
+		},
+		{
+			"imagename": "erx-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Education & Marketing Domain",
+				"summary":"Enrollment Rx provides innovative cloud-based CRM solutions that spans the entire Higher Education student lifecycle including enrollment, retention, placement and alumni management.",
+				"teamsize":"15",
+				"technology":"Visualforce, Apex, Lightning Design System (SLDS), Zoomooz, Jquery, Bootstrap, Font-Awesome,  Jquery Full Calendar, Jquery UI, Angular js, gridstack-angular, angularjs-datepicker, respond.js, QR code scan"
+			},
+			"desc":"erx-logo-600.png"
+		},
+		{
+			"imagename": "ims-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Health Care",
+				"summary":"IMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis</li><li>Marketing programs </li></ul>",
+				"teamsize":"24",
+				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
+			},
+			"desc":"ims-logo-600.png"
+			
+		},
+		{
+			"imagename": "pfl_logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Salesforce",
+				"summary":"Metacube developed SwagIQ from PFL which is a sales enablement app that uses intelligent gifting to streamline your sales cycle. Its rule based notification system keeps your business connected with your clients, closing more deals and creating lasting relationships with customers.",
+				"teamsize":"",
+				"technology":"Apex,Visualforce, API integration, Bootstrap, Workflows, Triggers.<ul><li>User License Management :Users can grant and revoke access of package components.It includes sorting, filtering, pagination functionalities.</li><li>Budget Administration :Tracking of how much budget a user has and and how much it has spent. Assign budget to users lower in the role hierarchy. It includes sorting, filtering, pagination functionalities.</li><li>Several batches and triggers on different objects to have internal automation.</li><li>Reports creation</li></ul>"
+			},
+			"desc":"pfl-logo-600.png"
+		},
+		{
+			"imagename": "por-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Reference Management",
+				"summary":"Project Summary (100 words max): ReferenceEdge℠ is a 100% native Salesforce app purpose-built to manage customer advocate information and automate all the essential program functions.",
+				"teamsize":"",
+				"technology":"Visualforce, Apex, Lightning Design System (SLDS), angular, integration with apple watch using Swift (powerful and intuitive programming language for macOS, iOS, watchOS and tvOS), integration with Influitive.<ul><li>100% Native Application - The whole app data and logic reside on salesforce.com platform</li><li>Managing multiple editions with different cost in single package</li><li>Custom license management for Full and Community Licenses based on editions.</li><li>Shared Contact - Allow a single contact to be associated to multiple accounts and be able to apply standard account-contact behavior.</li></ul>"
+			},
+			"desc":"por-logo-600.png"
+		},
+		{
+			"imagename": "bayun-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Reference Management",
+				"summary":"Project Summary (100 words max): ReferenceEdge℠ is a 100% native Salesforce app purpose-built to manage customer advocate information and automate all the essential program functions.",
+				"teamsize":"",
+				"technology":"Visualforce, Apex, Lightning Design System (SLDS), angular, integration with apple watch using Swift (powerful and intuitive programming language for macOS, iOS, watchOS and tvOS), integration with Influitive.<ul><li>100% Native Application - The whole app data and logic reside on salesforce.com platform</li><li>Managing multiple editions with different cost in single package</li><li>Custom license management for Full and Community Licenses based on editions.</li><li>Shared Contact - Allow a single contact to be associated to multiple accounts and be able to apply standard account-contact behavior.</li></ul>"
+			},
+			"desc":"bayun-logo-600.png"
+		}
+	]
+}} 
