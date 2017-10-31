@@ -36,15 +36,6 @@
 			"desc":"bayun-logo-600.png"
 		},
 		{
-			"imagename": "qcri_logo.jpg",
-			"content":{
-				"domain": "Java",
-				"summary":"Lorem Ipsum is simply dummy text",
-				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-			},
-			"desc":"qcri-logo-600.png"
-		},
-		{
 			"imagename": "greenfence_logo.png",
 			"content":{
 				"domain": "Food Safety / Supply Chain",
@@ -129,20 +120,6 @@
 			},
 			"desc":"greenfence-logo-600.png"
 		},
-		
-		{
-			"imagename": "genpact-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "CRMS contact center system",
-				"summary":"<p>Project MCAS (Multi-Channel Customer Acquisition and Service) helps banks serve their customers through the channel of their choice including social media, email, live chat, phone call or SOS throughout the entire banking life cycle.</p><p>Metacube team worked on implementing interactive screen and integration to do live chat, phone calls, request customer to share screen for immediate guidance/solution, robotic chat (receiving messages from external system during chat), tips/helps during conversation with customer.</p>",
-				"teamsize":"",
-				"technology":"Salesforce, LDS (Lightning Design System)"
-			},
-			"desc":"genpact-logo-600.png"
-		},
 		{
 			"imagename": "mirage-logo.png",
 			"maxWidth":"200px",
@@ -168,19 +145,6 @@
 				"technology":"Lightning SLDS, Angular JS and React JS for UI, Integration with Paypal services, Service Cloud, Service Console, Communities, Integration with Drawloop Spring CM, Integration with Payonomy, Native Salesforce"
 			},
 			"desc":"twg-logo-600.png"
-		},
-		{
-			"imagename": "workday-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "CRM",
-				"summary":"Workday Financial Management Connector provides complete visibility and accuracy across the quote-to-cash process. Easily integrate opportunity management data from Salesforce.com to Workday for streamlined, configurable quote-to-cash process automation.<ul><li>Quickly integrate Workday Financial Management with Salesforce CRM for simple, streamlined sales process automation.</li><li>Increase the accuracy of customer invoices, reduce days sales outstanding, and accelerate cash flow.</li><li>Improve customer satisfaction with deeper alignment between sales, finance and operations on key business initiatives.</li></ul>",
-				"teamsize":"",
-				"technology":"Lightning SLDS and Angular JS for UI, Integration with Workday web services, Apex, visualforce pages"
-			},
-			"desc":"workday-logo-600.png"
 		},
 		{
 			"imagename": "tcrm-logo.png",
