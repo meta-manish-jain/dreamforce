@@ -95,19 +95,6 @@
 			"desc":"cognistx-logo-600.png"
 		},
 		{
-			"imagename": "qcri_logo.jpg",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Humanitarian",
-				"summary":"<p>AIDR (Artificial Intelligence for Digital Response) combines crowdsourcing with artificial intelligence to automatically classify urgent and important information from social media mentions related to a trending subject - disaster, global events, etc. - thereby speeding up response times. AIDR aggregates, analyses and classifies tweets, facebook feeds and text messages related to the specified subject on a large scale, enabling individuals from humanitarian relief organisations - UNESCO, TWB, OCHA - to understand and respond effectively to the situation in real time.</p><p>Metacube has helped QCRI in streamlining and stabilizing AIDR and transforming it from research project to a full fledged product. We have also integrated Facebook as an additional source and further enhancing the scope of the product. </p>",
-				"teamsize":"",
-				"technology":"Java, Spring, Hibernate, Redis, Weka, PostgreSQL, MySQL, Pybossa"
-			},
-			"desc":"qcri-logo-600.png"
-		},
-		{
 			"imagename": "greenfence_logo.png",
 			"maxWidth":"200px",
 			"parentx":"200px",
@@ -238,7 +225,7 @@
 			"desc":"erx-logo-600.png"
 		},
 		{
-			"imagename": "ims-logo.png",
+			"imagename": "qntl_lg_tm_hrz_rgb_pos.jpg",
 			"maxWidth":"200px",
 			"parentx":"600px",
 			"parenty":"100px",
@@ -248,7 +235,7 @@
 				"teamsize":"25",
 				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
 			},
-			"desc":"ims-logo-600.png"
+			"desc":"qntl_lg_tm_hrz_rgb_pos.jpg"
 			
 		},
 		{
@@ -290,5 +277,6 @@
 			},
 			"desc":"bayun-logo-600.png"
 		}
+		
 	]
 }} 
