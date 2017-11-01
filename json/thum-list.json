@@ -127,7 +127,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "The Warranty Group",
-				"summary":"<p>TWG which stands for The Warranty Group is one of the World's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts. Implemented online billing and payment process. Implemented claim management. Currently we are working for more than 12 customers</p>",
+				"summary":"<p>TWG is one of the world's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts, implemented online billing, payment process, claim management for more than 12 customers</p>",
 				"teamsize":"75",
 				"technology":"Lightning SLDS, Angular JS and React JS for UI, Integration with Paypal services, Service Cloud, Service Console, Communities, Integration with Drawloop Spring CM, Integration with Payonomy, Native Salesforce"
 			},
@@ -140,7 +140,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Capital Market and Investment Management CRM",
-				"summary":"Tier1CRM is powered by Salesforce cloud CRM platform, designed and developed using multi-architecture and multi-platform hybrid application framework.<br/>It delivers to fulfil the need of industry leaders of research, sales, & trading, investment banking and other financial businesses.<br/>It also helps access to relevant information, improved communication and higher levels of workflow automation at an ease and solve the management problems.",
+				"summary":"<p>Tier1CRM is powered by Salesforce cloud CRM platform, designed and developed using multi-architecture and multi-platform hybrid application framework.<br/>It delivers to fulfil the need of industry leaders of research, sales, & trading, investment banking and other financial businesses.<br/>It also helps access to relevant information, improved communication and higher levels of workflow automation at an ease and solve the management problems.</p>",
 				"teamsize":"19",
 				"technology":"ExtJS, Salesforce Mobile SDK, Salesforce REST Api, iOS Native Plugins, C# Outlook Addins"
 			},
@@ -153,7 +153,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Financial Services",
-				"summary":"Metacube team are working on different FinancialForce core product (FFA, PSA, SCM, SRP, Clicklink) development and maintenance since 2011. Did some successful integration with other products e.g. Conga Composer, Google DFP. ",
+				"summary":"<p>FinancialForce.com is one of the biggest companies working on Salesforce platform, backed by Unit4 and Salesforce.com itself. <br/>Metacube team are working on different FinancialForce core (FFA, PSA, HCM, SCM, SRP, Clicklink) product development and maintenance since 2011.<br/>Metacube has also helped with integrations with several other products e.g. Conga Composer, Google DFP etc.</p>",
 				"teamsize":"81",
 				"technology":"Salesforce, Sencha, Paypal, Google DFP, Google Maps Geocoding API, JIRA, Jenkins, Automation using Ruby-Capybara/Rspec"
 			},
@@ -166,7 +166,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Telephony, CRM application and maintaining data at salesforce side",
-				"summary":"<p>RingDNA is an enterprise sales acceleration engine and voice communications platform.</p> <p>RingDNA is committed to helping sales teams maximize their revenue through innovations in technology, data, insight and education.</p> <p>Using its Softphone product - sales reps not only can talk to customers but also can keep the call related data into salesforce.</p><p>We at metacube test Softphone and all related products.</p> <p>Test webphone and also verify the data on sales force side. We also automate webphone functions using selenium webdriver</p>",
+				"summary":"<p>RingDNA provides an Intelligent Dialer for Salesforce empowers inside sales reps to dial more leads, have more conversations and close more revenue.<br/>Reps can click to call prospects directly from Gmail and Salesforce or use Next Call button to power through lead lists in Salesforce with one-click dialing.<br/>Metacube team has worked with RingDNA to create a seamless cycle of Continuous Delivery(weekly delivery) by providing testing services (manual & automation) for their Softphone and other administrative consoles.</p>",
 				"teamsize":"5",
 				"technology":"JIRA-Defect Tracking<br>Slack-Team communication<br>Automation-Selenium webdriver & TestNG framework<br>Manual testing as well"
 			},
@@ -179,7 +179,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Dealership Managment",
-				"summary":"Dealership Managment System in Salesforce with an intuitive custom user interface and social feel to it, designed using Angular and Bootstrap.<br/>Blackpurl provides all major dealership functionalities and enhanced custom searching and reporting features typically not found on native salesforce products.<br/>Since 2014, Metacube has helped realize Blackpurl's vision of providing innovative features with reliability of Salesforces' platform.<br/>Metacube has also achieved a major milestone of reducing the time to get the customer live from several weeks or days to few hours.",
+				"summary":"<p>Dealership Managment System in Salesforce with an intuitive custom user interface and social feel to it, designed using Angular and Bootstrap.<br/>Blackpurl provides all major dealership functionalities and enhanced custom searching and reporting features typically not found on native salesforce products.<br/>Since 2014, Metacube has helped realize Blackpurl's vision of providing innovative features with reliability of Salesforces' platform.<br/>Metacube has also achieved a major milestone of reducing the time to get the customer live from several weeks or days to few hours.</p>",
 				"teamsize":"16",
 				"technology":"Visualforce, Angular, Apex, KendoUI"
 			},
@@ -192,7 +192,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Embedded Systems",
-				"summary":"Metacube team (since 2013) work on various modules/tools and successfully implemented their integration with Cadence Salesforce CRM (Remedy Force, ServiceMax, Apttus, Ecosign, Conga Report Builder)",
+				"summary":"<p>Cadence Design Systems Inc., headquartered in San Jose, California, is a supplier of electronic design technologies and engineering services in the electronic design automation (EDA) industry.<br/>Metacube team (since 2013) work on various modules/tools to successfully implement their integration with Cadence Salesforce CRM (Remedy Force, ServiceMax, Apttus, Ecosign, Conga Report Builder).<br/>Metacube team works in a 24hr support model.</p>",
 				"teamsize":"17",
 				"technology":"Salesforce, Bootstrap, JQuery"
 			},
@@ -218,7 +218,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Education & Marketing Domain",
-				"summary":"Enrollment Rx provides innovative cloud-based CRM solutions that spans the entire Higher Education student lifecycle including enrollment, retention, placement and alumni management.",
+				"summary":"<p>Enrollment Rx provides innovative cloud-based CRM solutions that spans the entire Higher Education student lifecycle including enrollment, retention, placement and alumni management.<br/>Metacube has helped with 50+ successfull universities implemtations and identifing areas for product scope. Metacube been also engaged in development of multiple packages which can be used independently.</p>",
 				"teamsize":"14",
 				"technology":"Visualforce, Apex, Lightning Design System (SLDS), Zoomooz, Jquery, Bootstrap, Font-Awesome,  Jquery Full Calendar, Jquery UI, Angular js, gridstack-angular, angularjs-datepicker, respond.js, QR code scan"
 			},
@@ -231,7 +231,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Health Care",
-				"summary":"QuintilesIMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis</li><li>Marketing programs </li></ul>",
+				"summary":"QuintilesIMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis & Marketing programs </li></ul>",
 				"teamsize":"25",
 				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
 			},
