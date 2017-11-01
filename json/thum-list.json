@@ -88,7 +88,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Artificial Intelligence",
-				"summary":"Cognistx provides customised solutions helping companies deliver intelligent individualised offers based on customer behaviour, needs and preferences using cognitive computing technology.<br/>Metacube is developing SmartCognitives for Cognistx, a technology-agnostic adaptive intelligent machine-learning engine providing varied solutions like customised offers for retailers(MotoManager), chat assistance for call centers(ALIS Chatbot), clickstream interfaces for data driven companies, etc.",
+				"summary":"Cognistx provides customised solutions helping companies deliver intelligent individualised offers based on customer behaviour, needs and preferences using cognitive computing technology.<br/>Metacube is developing SmartCognitives for Cognistx, a technology-agnostic adaptive intelligent machine-learning engine providing varied solutions like customised offers for retailers (MotoManager), chat assistance for call centers (ALIS Chatbot), assisstance for bars (SmartBart), clickstream interfaces for data driven companies, etc.",
 				"teamsize":"6",
 				"technology":"Java, Weka, RabbitMQ, Redis, Android SDK, Swift, AWS (Beanstalk, RDS, Elasticache), CloudAMQP"
 			},
@@ -206,7 +206,7 @@
 			"content":{
 				"domain": "File sharing and storage",
 				"summary":"Egnyte for Salesforce provides a simple, secure way to access and share files from Salesforce. Egnyte Adaptive Enterprise File Services provide a unified view and centralized control to allow collaboration between Salesforce and non-Salesforce users.<ul><li>Collaborate with team members, even if they are not Salesforce users.</li><li>Share files securely with prospects and customers.</li><li>Seamlessly integrate 3rd party solutions through Egnyte including Google, Docusign and Microsoft Office.</li></ul>",
-				"teamsize":"",
+				"teamsize":"9",
 				"technology":"Canvas App built-in Java, API Integrations, Native Salesforce"
 			},
 			"desc":"egnyt-logo-600.png"
@@ -231,7 +231,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Health Care",
-				"summary":"IMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis</li><li>Marketing programs </li></ul>",
+				"summary":"QuintilesIMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis</li><li>Marketing programs </li></ul>",
 				"teamsize":"25",
 				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
 			},
