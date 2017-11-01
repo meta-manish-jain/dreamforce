@@ -75,9 +75,9 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Research & Publishing",
-				"summary":"IDC's BuyerPulse Deals Database: Worldwide Services product is an online tool offering tangible metrics that helps service providers, customers, and the financial community with lead generation, purchase decisions, penetrating into specific industry, market, country as well as partner monitoring. It represents the largest and richest information repository of services deals in the world, over 65,000 services contracts representing a combined value of over $3.5 trillion.",
+				"summary":"IDC's BuyerPulse: Worldwide Services product is an online tool offering tangible metrics that helps service providers, customers, and the financial community with lead generation, purchase decisions, penetrating into specific industry, market, country as well as partner monitoring. It represents the largest and richest information repository of services deals in the world, over 65,000 services contracts representing a combined value of over $3.5 trillion.",
 				"teamsize":"6",
-				"technology":"<ul><li>Java - Programming Language. V1.8</li><li>Maven - Build automation Tool</li><li>Spring MVC - Application Framework</li><li>Hibernate - Object-relational mapping framework</li><li>SOLR  - Open source enterprise search platform</li><li>Bootstrap - Front-end web framework for designing.</li><li>Angular JS - JavaScript-based open-source</li> <li>front-end web application framework.</li><li>Tomcat - Web Server to deploy application & handle HTTP requests & responses.</li><li>Python - Programming Language. V2.7.10</li><li>Scikit-learn : Machine Learning Library NLTK : NLP Library</li><li>Mongo DB: NoSQL DB</li><li>Stanford lib: Named-Entity Tagger</li></ul>"
+				"technology":"Java 1.8, Maven, Spring MVC, Hibernate, SOLR, Bootstrap. Angular JS, Tomcat, Python, Scikit-learn, Mongo DB"
 			},
 			"desc":"idc-logo-600.png"
 		},
@@ -168,7 +168,7 @@
 				"domain": "Telephony, CRM application and maintaining data at salesforce side",
 				"summary":"<p>RingDNA provides an Intelligent Dialer for Salesforce empowers inside sales reps to dial more leads, have more conversations and close more revenue.<br/>Reps can click to call prospects directly from Gmail and Salesforce or use Next Call button to power through lead lists in Salesforce with one-click dialing.<br/>Metacube team has worked with RingDNA to create a seamless cycle of Continuous Delivery(weekly delivery) by providing testing services (manual & automation) for their Softphone and other administrative consoles.</p>",
 				"teamsize":"5",
-				"technology":"JIRA-Defect Tracking<br>Slack-Team communication<br>Automation-Selenium webdriver & TestNG framework<br>Manual testing as well"
+				"technology":"JIRA, Slack, Automation-Selenium webdriver & TestNG"
 			},
 			"desc":"ringdna-logo-600.png"
 		},
@@ -219,7 +219,7 @@
 			"content":{
 				"domain": "Education & Marketing Domain",
 				"summary":"<p>Enrollment Rx provides innovative cloud-based CRM solutions that spans the entire Higher Education student lifecycle including enrollment, retention, placement and alumni management.<br/>Metacube has helped with 50+ successfull universities implemtations and identifing areas for product scope. Metacube been also engaged in development of multiple packages which can be used independently.</p>",
-				"teamsize":"14",
+				"teamsize":"9",
 				"technology":"Visualforce, Apex, Lightning Design System (SLDS), Zoomooz, Jquery, Bootstrap, Font-Awesome,  Jquery Full Calendar, Jquery UI, Angular js, gridstack-angular, angularjs-datepicker, respond.js, QR code scan"
 			},
 			"desc":"erx-logo-600.png"
