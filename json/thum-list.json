@@ -47,9 +47,9 @@
 		{
 			"imagename": "idc-logo.png",
 			"content":{
-				"domain": "Java",
-				"summary":"Lorem Ipsum is simply dummy text",
-				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				"domain": "Sales and Marketing Enablement",
+				"summary":"Over the last 7+ years, Metacube has helped IDC build the BuyerPulse Deals Database -it's an online platform offering tangible metrics that helps service providers, customers, and the financial community with lead generation, purchase decisions, penetrating into specific industry, market, country as well as partner monitoring.<br/>The tool captures over 65,000 services contracts representing a combined value of over $3.5 trillion.<br/>Metacube owns the complete engineering services for BuyerPulse Deals Database.",
+				"technology":"Java (Spring MVC, Hibernate, SOLR), AngularJS, Python, Scikit-learn, NLTK, Stanford lib"
 			},
 			"desc":"idc-logo-600.png"
 		}
@@ -87,10 +87,10 @@
 			"parentx":"200px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Domain",
-				"summary":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+				"domain": "Artificial Intelligence",
+				"summary":"Cognistx provides customised solutions helping companies deliver intelligent individualised offers based on customer behaviour, needs and preferences using cognitive computing technology.<br/>Metacube is developing SmartCognitives for Cognistx, a technology-agnostic adaptive intelligent machine-learning engine providing varied solutions like customised offers for retailers(MotoManager), chat assistance for call centers(ALIS Chatbot), clickstream interfaces for data driven companies, etc.",
 				"teamsize":"6",
-				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				"technology":"Java, Weka, RabbitMQ, Redis, Android SDK, Swift, AWS (Beanstalk, RDS, Elasticache), CloudAMQP"
 			},
 			"desc":"cognistx-logo-600.png"
 		},
@@ -129,7 +129,7 @@
 				"domain": "Computer Telephony Integration (CTI) with Salesforce",
 				"summary":"- Computer-telephony integration (CTI) integration in Salesforce (Called softphone to handle calls)<br>- handling Call history, activity for each call(Inbound,outbound,missed)<br>- Skype for business integration- Dialing rules implementation depending on International number formatting<br>- Active tab handling - in terms of softphone state management on tab changed. <br>- CTI on lightning ",
 				"teamsize":"4",
-				"technology":"Salesforce"
+				"technology":"Visualforce, Apex, Open CTI, Javascript"
 			},
 			"desc":"mirage-logo-600.png"
 		},
@@ -152,10 +152,10 @@
 			"parentx":"200px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Dummy",
-				"summary":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-				"teamsize":"8",
-				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				"domain": "Capital Market and Investment Management CRM",
+				"summary":"Tier1CRM is powered by Salesforce cloud CRM platform, designed and developed using multi-architecture and multi-platform hybrid application framework.<br/>It delivers to fulfil the need of industry leaders of research, sales, & trading, investment banking and other financial businesses.<br/>It also helps access to relevant information, improved communication and higher levels of workflow automation at an ease and solve the management problems.",
+				"teamsize":"19",
+				"technology":"ExtJS, Salesforce Mobile SDK, Salesforce REST Api, iOS Native Plugins, C# Outlook Addins"
 			},
 			"desc":"tcrm-logo-600.png"
 		},
@@ -168,7 +168,7 @@
 				"domain": "Financial Services",
 				"summary":"Metacube team are working on different FinancialForce core product (FFA, PSA, SCM, SRP, Clicklink) development and maintenance since 2011. Did some successful integration with other products e.g. Conga Composer, Google DFP. ",
 				"teamsize":"81",
-				"technology":"Force.com, Apex, Visualforce, Batch and Scheduled Apex, Reports, Dashboards, Sencha, Flex, Paypal, Google DFP"
+				"technology":"Salesforce, Sencha, Paypal, Google DFP, Google Maps Geocoding API, JIRA, Jenkins, Automation using Ruby-Capybara/Rspec"
 			},
 			"desc":"ff-logo-600.png"
 		},
@@ -180,7 +180,7 @@
 			"content":{
 				"domain": "Telephony, CRM application and maintaining data at salesforce side",
 				"summary":"<p>RingDNA is an enterprise sales acceleration engine and voice communications platform.</p> <p>RingDNA is committed to helping sales teams maximize their revenue through innovations in technology, data, insight and education.</p> <p>Using its Softphone product - sales reps not only can talk to customers but also can keep the call related data into salesforce.</p><p>We at metacube test Softphone and all related products.</p> <p>Test webphone and also verify the data on sales force side. We also automate webphone functions using selenium webdriver</p>",
-				"teamsize":"4",
+				"teamsize":"5",
 				"technology":"JIRA-Defect Tracking<br>Slack-Team communication<br>Automation-Selenium webdriver & TestNG framework<br>Manual testing as well"
 			},
 			"desc":"ringdna-logo-600.png"
@@ -191,10 +191,10 @@
 			"parentx":"600px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Dummy",
-				"summary":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+				"domain": "Dealership Managment",
+				"summary":"Dealership Managment System in Salesforce with an intuitive custom user interface and social feel to it, designed using Angular and Bootstrap.<br/>Blackpurl provides all major dealership functionalities and enhanced custom searching and reporting features typically not found on native salesforce products.<br/>Since 2014, Metacube has helped realize Blackpurl's vision of providing innovative features with reliability of Salesforces' platform.<br/>Metacube has also achieved a major milestone of reducing the time to get the customer live from several weeks or days to few hours.",
 				"teamsize":"16",
-				"technology":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				"technology":"Visualforce, Angular, Apex, KendoUI"
 			},
 			"desc":"blackpurl-logo-600.png"
 		},
@@ -257,7 +257,7 @@
 			"parentx":"600px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Salesforce",
+				"domain": "Sales and Marketing Enablement",
 				"summary":"Metacube developed SwagIQ from PFL which is a sales enablement app that uses intelligent gifting to streamline your sales cycle. Its rule based notification system keeps your business connected with your clients, closing more deals and creating lasting relationships with customers.",
 				"teamsize":"3",
 				"technology":"Apex,Visualforce, API integration, Bootstrap, Workflows, Triggers.<ul><li>User License Management :Users can grant and revoke access of package components.It includes sorting, filtering, pagination functionalities.</li><li>Budget Administration :Tracking of how much budget a user has and and how much it has spent. Assign budget to users lower in the role hierarchy. It includes sorting, filtering, pagination functionalities.</li><li>Several batches and triggers on different objects to have internal automation.</li><li>Reports creation</li></ul>"
@@ -271,7 +271,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Reference Management",
-				"summary":"Project Summary (100 words max): ReferenceEdge℠ is a 100% native Salesforce app purpose-built to manage customer advocate information and automate all the essential program functions.",
+				"summary":"ReferenceEdge℠ is a 100% native Salesforce app purpose-built to manage customer advocate information and automate all the essential program functions.",
 				"teamsize":"5",
 				"technology":"Visualforce, Apex, Lightning Design System (SLDS), angular, integration with apple watch using Swift (powerful and intuitive programming language for macOS, iOS, watchOS and tvOS), integration with Influitive.<ul><li>100% Native Application - The whole app data and logic reside on salesforce.com platform</li><li>Managing multiple editions with different cost in single package</li><li>Custom license management for Full and Community Licenses based on editions.</li><li>Shared Contact - Allow a single contact to be associated to multiple accounts and be able to apply standard account-contact behavior.</li></ul>"
 			},
@@ -283,10 +283,10 @@
 			"parentx":"600px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Reference Management",
-				"summary":"Project Summary (100 words max): ReferenceEdge℠ is a 100% native Salesforce app purpose-built to manage customer advocate information and automate all the essential program functions.",
+				"domain": "Data Security",
+				"summary":"Bayun provides a mobile solution that solves the problem of data security and control for enterprise level applications by enabling them to relinquish control to the data owner, no matter where the data is stored.<br/>It can be easily integrated with existing applications to provide over-the-top security without changing user experience.",
 				"teamsize":"2",
-				"technology":"Visualforce, Apex, Lightning Design System (SLDS), angular, integration with apple watch using Swift (powerful and intuitive programming language for macOS, iOS, watchOS and tvOS), integration with Influitive.<ul><li>100% Native Application - The whole app data and logic reside on salesforce.com platform</li><li>Managing multiple editions with different cost in single package</li><li>Custom license management for Full and Community Licenses based on editions.</li><li>Shared Contact - Allow a single contact to be associated to multiple accounts and be able to apply standard account-contact behavior.</li></ul>"
+				"technology":"Java (Spring MVC, Hibernate), iOS, Android, RSA encryption, Objective C, Swift"
 			},
 			"desc":"bayun-logo-600.png"
 		}
