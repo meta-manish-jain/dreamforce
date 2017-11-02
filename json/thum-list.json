@@ -129,8 +129,8 @@
 			"content":{
 				"domain": "Capital Market and Investment Management CRM",
 				"summary":"<p>Tier1CRM is powered by Salesforce cloud CRM platform, designed and developed using multi-architecture and multi-platform hybrid application framework.<br/>It delivers to fulfil the need of industry leaders of research, sales, & trading, investment banking and other financial businesses.<br/>It also helps access to relevant information, improved communication and higher levels of workflow automation at an ease and solve the management problems.</p>",
-				"teamsize":"19",
-				"technology":"ExtJS, Salesforce Mobile SDK, Salesforce REST Api, iOS Native Plugins, C# Outlook Addins"
+				"teamsize":"18",
+				"technology":"ExtJS, Salesforce Mobile SDK, Salesforce REST Api,Lightning Design System (SLDS), iOS Native Plugins, C# Outlook Addins"
 			},
 			"desc":"tcrm-logo-600.png"
 		},
