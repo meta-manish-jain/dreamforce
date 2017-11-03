@@ -305,12 +305,12 @@ h1.panel-heading{
 	top: 0;
 	bottom: 0;
 		opacity: 0;
-		transform: rotateX(0);
+		/*transform: rotateX(0);*/
 
 }
 .bottom-fixed-content .front-content{
 	opacity: 0;
-	transform: rotateX(0);
+	/*transform: rotateX(0);*/
 }
 .bottom-fixed-content  .back-content img{
 	    display: inline-block;
@@ -322,11 +322,11 @@ h1.panel-heading{
 }
 .bottom-fixed-content .front-content.rotate-start{
 	opacity: 1;
-	transform: rotateX(360deg);
+	/*transform: rotateX(360deg);*/
 }
 .bottom-fixed-content .back-content.rotate-start{
 	opacity: 1;
-	transform: rotateX(360deg);
+	/*transform: rotateX(360deg);*/
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
