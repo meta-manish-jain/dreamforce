@@ -104,14 +104,20 @@
 			</div>
 		</div>
 		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
-			<h2 class="about-heading">About Metacube</h2>
-			<ul class="about-lising">
-				<li>Started in 2004</li>
-				<li>Salesforce PDO partners since 2007</li>
-				<li>More than 500 engineers</li>
-				<li>250+ Salesforce expert with 150+ certified professionals</li>
-				<li>Based in Jaipur, India</li>
-			</ul>
+			<div class="front-content">
+				<h2 class="about-heading">About Metacube</h2>
+				<ul class="about-lising">
+					<li>Started in 2004</li>
+					<li>Salesforce PDO partners since 2007</li>
+					<li>More than 500 engineers</li>
+					<li>250+ Salesforce expert with 150+ certified professionals</li>
+					<li>Based in Jaipur, India</li>
+				</ul>
+			</div>
+			<div class="back-content">
+				<img src="images/_sfmaster_PDO_Specialist_rgb.png" alt="" />
+				<img src="images/2015sf_Partner_SilverConsultingPartner_logo_RGB.png" alt="" />
+			</div>
 		</div>
 	</div>
 	
@@ -126,6 +132,8 @@
 	var descriptionInterval;
 	var desccounter = 0;
 	var playDescSlider = true;
+	var rotateContent = [".front-content",".back-content"];
+	var rotateCounter = 0;
 	$(window).load(function(){
 		$.ajax({
 		  url: "json/thum-list.json",
@@ -162,6 +170,16 @@
 			console.log(e);
 		  }
 		});
+		setInterval(function(){
+			slidingDetails(rotateContent[rotateCounter]);			
+			if(rotateCounter < 1){
+				rotateCounter++;
+			}else{
+				rotateCounter = 0;
+			}
+			
+			
+		},2000);
 		
 	})
 	
@@ -201,6 +219,19 @@
 			$(this).css("width",getWidth+"%");
 			$(this).height(Math.round(getHeight));
 		})
+	}
+	function slidingDetails(contentclass){
+			if(contentclass == ".front-content"){				
+				$(".fourth-block "+contentclass).addClass("rotate-start");
+				$(".fourth-block .back-content").removeClass("rotate-start");
+			}else{
+				$(".fourth-block "+contentclass).addClass("rotate-start");
+				$(".fourth-block .front-content").removeClass("rotate-start");
+			}
+			
+			
+			
+			
 	}
 	function renderExpertiesItem(imgdata,galleryData){
 		var counter = 0;

@@ -285,6 +285,72 @@ h1.panel-heading{
 .second-block, .third-block{
 	height:600px;
 }
+.bottom-fixed-content{
+	transition: all 2s;
+	transform: rotateY(0);
+}
+.bottom-fixed-content.rotateit{
+	transform: rotateY(0);
+}
+.bottom-fixed-content .front-content, .bottom-fixed-content{
+	position: relative;
+}
+.bottom-fixed-content .front-content, .bottom-fixed-content .back-content{
+	transition: all 0.8s;
+}
+.bottom-fixed-content .back-content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+		opacity: 0;
+		transform: rotateX(0);
+
+}
+.bottom-fixed-content .front-content{
+	opacity: 0;
+	transform: rotateX(0);
+}
+.bottom-fixed-content  .back-content img{
+	    display: inline-block;
+    max-width: 22%;
+    margin: 12px 0 0 190px;
+}
+.bottom-fixed-content  .back-content img:nth-child(2){
+	max-width: 32%;
+}
+.bottom-fixed-content .front-content.rotate-start{
+	opacity: 1;
+	transform: rotateX(360deg);
+}
+.bottom-fixed-content .back-content.rotate-start{
+	opacity: 1;
+	transform: rotateX(360deg);
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove1 {
+    0%   {opacity: 0; transform: rotateY(360deg);}
+    100% {opacity: 1; transform: rotateY(0deg);}
+}
+
+/* Standard syntax */
+@keyframes mymove1 {
+    0%   {opacity: 0; transform: rotateY(360deg);}
+    100% {opacity: 1; transform: rotateY(0deg);}
+}
 @media (min-width:1920px){
 	/*.df-menus ul.menu-list li.gallery-img{
 		max-width: 30%;
