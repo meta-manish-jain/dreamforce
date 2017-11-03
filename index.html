@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>DF-16-Presentation</title>
+    <title>DF-17-Presentation</title>
 	
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -104,20 +104,14 @@
 			</div>
 		</div>
 		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
-			<div class="front-content">
-				<h2 class="about-heading">About Metacube</h2>
-				<ul class="about-lising">
-					<li>Started in 2004</li>
-					<li>Salesforce PDO partners since 2007</li>
-					<li>More than 500 engineers</li>
-					<li>250+ Salesforce expert with 150+ certified professionals</li>
-					<li>Based in Jaipur, India</li>
-				</ul>
-			</div>
-			<div class="back-content">
-				<img src="images/_sfmaster_PDO_Specialist_rgb.png" alt="" />
-				<img src="images/2015sf_Partner_SilverConsultingPartner_logo_RGB.png" alt="" />
-			</div>
+			<h2 class="about-heading">About Metacube</h2>
+			<ul class="about-lising">
+				<li>Started in 2004</li>
+				<li>Salesforce PDO (Master) & Consulting (Silver) partners</li>
+				<li>More than 500 engineers</li>
+				<li>250+ Salesforce expert with 150+ certified professionals</li>
+				<li>Based in Jaipur, India</li>
+			</ul>
 		</div>
 	</div>
 	
@@ -132,8 +126,6 @@
 	var descriptionInterval;
 	var desccounter = 0;
 	var playDescSlider = true;
-	var rotateContent = [".front-content",".back-content"];
-	var rotateCounter = 0;
 	$(window).load(function(){
 		$.ajax({
 		  url: "json/thum-list.json",
@@ -170,16 +162,6 @@
 			console.log(e);
 		  }
 		});
-		setInterval(function(){
-			slidingDetails(rotateContent[rotateCounter]);			
-			if(rotateCounter < 1){
-				rotateCounter++;
-			}else{
-				rotateCounter = 0;
-			}
-			
-			
-		},2000);
 		
 	})
 	
@@ -219,19 +201,6 @@
 			$(this).css("width",getWidth+"%");
 			$(this).height(Math.round(getHeight));
 		})
-	}
-	function slidingDetails(contentclass){
-			if(contentclass == ".front-content"){				
-				$(".fourth-block "+contentclass).addClass("rotate-start");
-				$(".fourth-block .back-content").removeClass("rotate-start");
-			}else{
-				$(".fourth-block "+contentclass).addClass("rotate-start");
-				$(".fourth-block .front-content").removeClass("rotate-start");
-			}
-			
-			
-			
-			
 	}
 	function renderExpertiesItem(imgdata,galleryData){
 		var counter = 0;

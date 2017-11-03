@@ -56,69 +56,17 @@
 	],
     "galleryimages":[
 		{
-			"imagename": "zippia-logo.png",
+			"imagename": "ff-logo.png",
 			"maxWidth":"200px",
 			"parentx":"200px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Career Counselling and Exploration",
-				"summary":"Zippia is a web based application that enables people make decisions regarding their career by looking at career progression trends. Its focussing on fresh graduates for now, by providing them various career paths that they can choose based on their major (and where they might end up down the line). They also have job listings integrated into their system and help candidates find appropriate entry level jobs. We have helped them engineer the entire product from scratch; backend, frontend and data science",
-				"teamsize":"3",
-				"technology":"NodeJS, AngularJS, MongoDB, Python, NLP (Text Classification, Part of Speech Tagging, Noun Phrase Extraction, Data Cleaning and Clustering)"
+				"domain": "Financial Services",
+				"summary":"<p>FinancialForce.com is one of the biggest companies working on Salesforce platform, backed by Unit4 and Salesforce.com itself. <br/>Metacube team are working on different FinancialForce core (FFA, PSA, HCM, SCM, SRP, Clicklink) product development and maintenance since 2011.<br/>Metacube has also helped with integrations with several other products e.g. Conga Composer, Google DFP etc.</p>",
+				"teamsize":"81",
+				"technology":"Salesforce, Sencha, Paypal, Google DFP, Google Maps Geocoding API, JIRA, Jenkins, Automation using Ruby-Capybara/Rspec"
 			},
-			"desc":"zipia-logo-600.png"
-		},
-		{
-			"imagename": "idc-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Research & Publishing",
-				"summary":"IDC's BuyerPulse Deals Database: Worldwide Services product is an online tool offering tangible metrics that helps service providers, customers, and the financial community with lead generation, purchase decisions, penetrating into specific industry, market, country as well as partner monitoring. It represents the largest and richest information repository of services deals in the world, over 65,000 services contracts representing a combined value of over $3.5 trillion.",
-				"teamsize":"6",
-				"technology":"<ul><li>Java - Programming Language. V1.8</li><li>Maven - Build automation Tool</li><li>Spring MVC - Application Framework</li><li>Hibernate - Object-relational mapping framework</li><li>SOLR  - Open source enterprise search platform</li><li>Bootstrap - Front-end web framework for designing.</li><li>Angular JS - JavaScript-based open-source</li> <li>front-end web application framework.</li><li>Tomcat - Web Server to deploy application & handle HTTP requests & responses.</li><li>Python - Programming Language. V2.7.10</li><li>Scikit-learn : Machine Learning Library NLTK : NLP Library</li><li>Mongo DB: NoSQL DB</li><li>Stanford lib: Named-Entity Tagger</li></ul>"
-			},
-			"desc":"idc-logo-600.png"
-		},
-		{
-			"imagename": "cognistix_logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Artificial Intelligence",
-				"summary":"Cognistx provides customised solutions helping companies deliver intelligent individualised offers based on customer behaviour, needs and preferences using cognitive computing technology.<br/>Metacube is developing SmartCognitives for Cognistx, a technology-agnostic adaptive intelligent machine-learning engine providing varied solutions like customised offers for retailers(MotoManager), chat assistance for call centers(ALIS Chatbot), clickstream interfaces for data driven companies, etc.",
-				"teamsize":"6",
-				"technology":"Java, Weka, RabbitMQ, Redis, Android SDK, Swift, AWS (Beanstalk, RDS, Elasticache), CloudAMQP"
-			},
-			"desc":"cognistx-logo-600.png"
-		},
-		{
-			"imagename": "greenfence_logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Food Safety / Supply Chain",
-				"summary":"A Social platform which allows auditors, suppliers and food producers to collaborate with each other to solve the problems related to transparency and traceability in food supply chain. It seamlessly connects auditors , food growers , suppliers and retailers to collaborate among themselves using in built communication platform , message center and document storage to ensure best practice in growing , harvesting , transportation and storage are followed across their supply chains.",
-				"teamsize":"18",
-				"technology":"Java (Spring, Solr, Hibernate), Neo4j, Redis, Javascript (Angular JS), Ruby and Rails(ROR) , Heroku, Twilio, PostgreSQL, AWS (EC2, S3, IAM), Python/Django"
-			},
-			"desc":"greenfence-logo-600.png"
-		},
-		{
-			"imagename": "mirage-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Computer Telephony Integration (CTI) with Salesforce",
-				"summary":"- Computer-telephony integration (CTI) integration in Salesforce (Called softphone to handle calls)<br>- handling Call history, activity for each call(Inbound,outbound,missed)<br>- Skype for business integration- Dialing rules implementation depending on International number formatting<br>- Active tab handling - in terms of softphone state management on tab changed. <br>- CTI on lightning ",
-				"teamsize":"4",
-				"technology":"Visualforce, Apex, Open CTI, Javascript"
-			},
-			"desc":"mirage-logo-600.png"
+			"desc":"ff-logo-600.png"
 		},
 		{
 			"imagename": "twg-logo.png",
@@ -127,50 +75,25 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "The Warranty Group",
-				"summary":"<p>TWG which stands for The Warranty Group is one of the World's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts. Implemented online billing and payment process. Implemented claim management. Currently we are working for more than 12 customers</p>",
+				"summary":"<p>TWG is one of the world's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts, implemented online billing, payment process, claim management for more than 12 customers</p>",
 				"teamsize":"75",
 				"technology":"Lightning SLDS, Angular JS and React JS for UI, Integration with Paypal services, Service Cloud, Service Console, Communities, Integration with Drawloop Spring CM, Integration with Payonomy, Native Salesforce"
 			},
 			"desc":"twg-logo-600.png"
 		},
 		{
-			"imagename": "tcrm-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Capital Market and Investment Management CRM",
-				"summary":"Tier1CRM is powered by Salesforce cloud CRM platform, designed and developed using multi-architecture and multi-platform hybrid application framework.<br/>It delivers to fulfil the need of industry leaders of research, sales, & trading, investment banking and other financial businesses.<br/>It also helps access to relevant information, improved communication and higher levels of workflow automation at an ease and solve the management problems.",
-				"teamsize":"19",
-				"technology":"ExtJS, Salesforce Mobile SDK, Salesforce REST Api, iOS Native Plugins, C# Outlook Addins"
-			},
-			"desc":"tcrm-logo-600.png"
-		},
-		{
-			"imagename": "ff-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Financial Services",
-				"summary":"Metacube team are working on different FinancialForce core product (FFA, PSA, SCM, SRP, Clicklink) development and maintenance since 2011. Did some successful integration with other products e.g. Conga Composer, Google DFP. ",
-				"teamsize":"81",
-				"technology":"Salesforce, Sencha, Paypal, Google DFP, Google Maps Geocoding API, JIRA, Jenkins, Automation using Ruby-Capybara/Rspec"
-			},
-			"desc":"ff-logo-600.png"
-		},
-		{
-			"imagename": "ring-dna-logo.png",
+			"imagename": "qntl_lg_tm_hrz_rgb_pos.jpg",
 			"maxWidth":"200px",
 			"parentx":"600px",
 			"parenty":"100px",
 			"content":{
-				"domain": "Telephony, CRM application and maintaining data at salesforce side",
-				"summary":"<p>RingDNA is an enterprise sales acceleration engine and voice communications platform.</p> <p>RingDNA is committed to helping sales teams maximize their revenue through innovations in technology, data, insight and education.</p> <p>Using its Softphone product - sales reps not only can talk to customers but also can keep the call related data into salesforce.</p><p>We at metacube test Softphone and all related products.</p> <p>Test webphone and also verify the data on sales force side. We also automate webphone functions using selenium webdriver</p>",
-				"teamsize":"5",
-				"technology":"JIRA-Defect Tracking<br>Slack-Team communication<br>Automation-Selenium webdriver & TestNG framework<br>Manual testing as well"
+				"domain": "Health Care",
+				"summary":"QuintilesIMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis & Marketing programs </li></ul>",
+				"teamsize":"25",
+				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
 			},
-			"desc":"ringdna-logo-600.png"
+			"desc":"qntl_lg_tm_hrz_rgb_pos.jpg"
+			
 		},
 		{
 			"imagename": "blackpurl-logo.png",
@@ -179,7 +102,7 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Dealership Managment",
-				"summary":"Dealership Managment System in Salesforce with an intuitive custom user interface and social feel to it, designed using Angular and Bootstrap.<br/>Blackpurl provides all major dealership functionalities and enhanced custom searching and reporting features typically not found on native salesforce products.<br/>Since 2014, Metacube has helped realize Blackpurl's vision of providing innovative features with reliability of Salesforces' platform.<br/>Metacube has also achieved a major milestone of reducing the time to get the customer live from several weeks or days to few hours.",
+				"summary":"<p>Dealership Managment System in Salesforce with an intuitive custom user interface and social feel to it, designed using Angular and Bootstrap.<br/>Blackpurl provides all major dealership functionalities and enhanced custom searching and reporting features typically not found on native salesforce products.<br/>Since 2014, Metacube has helped realize Blackpurl's vision of providing innovative features with reliability of Salesforces' platform.<br/>Metacube has also achieved a major milestone of reducing the time to get the customer live from several weeks or days to few hours.</p>",
 				"teamsize":"16",
 				"technology":"Visualforce, Angular, Apex, KendoUI"
 			},
@@ -192,24 +115,24 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Embedded Systems",
-				"summary":"Metacube team (since 2013) work on various modules/tools and successfully implemented their integration with Cadence Salesforce CRM (Remedy Force, ServiceMax, Apttus, Ecosign, Conga Report Builder)",
+				"summary":"<p>Cadence Design Systems Inc., headquartered in San Jose, California, is a supplier of electronic design technologies and engineering services in the electronic design automation (EDA) industry.<br/>Metacube team (since 2013) work on various modules/tools to successfully implement their integration with Cadence Salesforce CRM (Remedy Force, ServiceMax, Apttus, Ecosign, Conga Report Builder).<br/>Metacube team works in a 24hr support model.</p>",
 				"teamsize":"17",
 				"technology":"Salesforce, Bootstrap, JQuery"
 			},
 			"desc":"cadence-logo-600.png"
 		},
 		{
-			"imagename": "egnyte_logo.png",
+			"imagename": "tcrm-logo.png",
 			"maxWidth":"200px",
-			"parentx":"600px",
+			"parentx":"200px",
 			"parenty":"100px",
 			"content":{
-				"domain": "File sharing and storage",
-				"summary":"Egnyte for Salesforce provides a simple, secure way to access and share files from Salesforce. Egnyte Adaptive Enterprise File Services provide a unified view and centralized control to allow collaboration between Salesforce and non-Salesforce users.<ul><li>Collaborate with team members, even if they are not Salesforce users.</li><li>Share files securely with prospects and customers.</li><li>Seamlessly integrate 3rd party solutions through Egnyte including Google, Docusign and Microsoft Office.</li></ul>",
-				"teamsize":"",
-				"technology":"Canvas App built-in Java, API Integrations, Native Salesforce"
+				"domain": "Capital Market and Investment Management CRM",
+				"summary":"<p>Tier1CRM is powered by Salesforce cloud CRM platform, designed and developed using multi-architecture and multi-platform hybrid application framework.<br/>It delivers to fulfil the need of industry leaders of research, sales, & trading, investment banking and other financial businesses.<br/>It also helps access to relevant information, improved communication and higher levels of workflow automation at an ease and solve the management problems.</p>",
+				"teamsize":"18",
+				"technology":"ExtJS, Salesforce Mobile SDK, Salesforce REST Api,Lightning Design System (SLDS), iOS Native Plugins, C# Outlook Addins"
 			},
-			"desc":"egnyt-logo-600.png"
+			"desc":"tcrm-logo-600.png"
 		},
 		{
 			"imagename": "erx-logo.png",
@@ -218,38 +141,11 @@
 			"parenty":"100px",
 			"content":{
 				"domain": "Education & Marketing Domain",
-				"summary":"Enrollment Rx provides innovative cloud-based CRM solutions that spans the entire Higher Education student lifecycle including enrollment, retention, placement and alumni management.",
-				"teamsize":"14",
+				"summary":"<p>Enrollment Rx provides innovative cloud-based CRM solutions that spans the entire Higher Education student lifecycle including enrollment, retention, placement and alumni management.<br/>Metacube has helped with 50+ successfull universities implemtations and identifing areas for product scope. Metacube been also engaged in development of multiple packages which can be used independently.</p>",
+				"teamsize":"9",
 				"technology":"Visualforce, Apex, Lightning Design System (SLDS), Zoomooz, Jquery, Bootstrap, Font-Awesome,  Jquery Full Calendar, Jquery UI, Angular js, gridstack-angular, angularjs-datepicker, respond.js, QR code scan"
 			},
 			"desc":"erx-logo-600.png"
-		},
-		{
-			"imagename": "qntl_lg_tm_hrz_rgb_pos.jpg",
-			"maxWidth":"200px",
-			"parentx":"600px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Health Care",
-				"summary":"IMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis</li><li>Marketing programs </li></ul>",
-				"teamsize":"25",
-				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
-			},
-			"desc":"qntl_lg_tm_hrz_rgb_pos.jpg"
-			
-		},
-		{
-			"imagename": "pfl_logo.png",
-			"maxWidth":"200px",
-			"parentx":"600px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Sales and Marketing Enablement",
-				"summary":"Metacube developed SwagIQ from PFL which is a sales enablement app that uses intelligent gifting to streamline your sales cycle. Its rule based notification system keeps your business connected with your clients, closing more deals and creating lasting relationships with customers.",
-				"teamsize":"3",
-				"technology":"Apex,Visualforce, API integration, Bootstrap, Workflows, Triggers.<ul><li>User License Management :Users can grant and revoke access of package components.It includes sorting, filtering, pagination functionalities.</li><li>Budget Administration :Tracking of how much budget a user has and and how much it has spent. Assign budget to users lower in the role hierarchy. It includes sorting, filtering, pagination functionalities.</li><li>Several batches and triggers on different objects to have internal automation.</li><li>Reports creation</li></ul>"
-			},
-			"desc":"pfl-logo-600.png"
 		},
 		{
 			"imagename": "por-logo.png",
@@ -265,6 +161,97 @@
 			"desc":"por-logo-600.png"
 		},
 		{
+			"imagename": "pfl_logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Sales and Marketing Enablement",
+				"summary":"Metacube developed SwagIQ from PFL which is a sales enablement app that uses intelligent gifting to streamline your sales cycle. Its rule based notification system keeps your business connected with your clients, closing more deals and creating lasting relationships with customers.",
+				"teamsize":"3",
+				"technology":"Apex,Visualforce, API integration, Bootstrap, Workflows, Triggers.<ul><li>User License Management :Users can grant and revoke access of package components.It includes sorting, filtering, pagination functionalities.</li><li>Budget Administration :Tracking of how much budget a user has and and how much it has spent. Assign budget to users lower in the role hierarchy. It includes sorting, filtering, pagination functionalities.</li><li>Several batches and triggers on different objects to have internal automation.</li><li>Reports creation</li></ul>"
+			},
+			"desc":"pfl-logo-600.png"
+		},		
+		{
+			"imagename": "mirage-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Computer Telephony Integration (CTI) with Salesforce",
+				"summary":"- Computer-telephony integration (CTI) integration in Salesforce (Called softphone to handle calls)<br>- handling Call history, activity for each call(Inbound,outbound,missed)<br>- Skype for business integration- Dialing rules implementation depending on International number formatting<br>- Active tab handling - in terms of softphone state management on tab changed. <br>- CTI on lightning ",
+				"teamsize":"4",
+				"technology":"Visualforce, Apex, Open CTI, Javascript"
+			},
+			"desc":"mirage-logo-600.png"
+		},		
+		{
+			"imagename": "ring-dna-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Telephony, CRM application and maintaining data at salesforce side",
+				"summary":"<p>RingDNA provides an Intelligent Dialer for Salesforce empowers inside sales reps to dial more leads, have more conversations and close more revenue.<br/>Reps can click to call prospects directly from Gmail and Salesforce or use Next Call button to power through lead lists in Salesforce with one-click dialing.<br/>Metacube team has worked with RingDNA to create a seamless cycle of Continuous Delivery(weekly delivery) by providing testing services (manual & automation) for their Softphone and other administrative consoles.</p>",
+				"teamsize":"5",
+				"technology":"JIRA, Slack, Automation-Selenium webdriver & TestNG"
+			},
+			"desc":"ringdna-logo-600.png"
+		},	
+		{
+			"imagename": "egnyte_logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "File sharing and storage",
+				"summary":"Egnyte for Salesforce provides a simple, secure way to access and share files from Salesforce. Egnyte Adaptive Enterprise File Services provide a unified view and centralized control to allow collaboration between Salesforce and non-Salesforce users.<ul><li>Collaborate with team members, even if they are not Salesforce users.</li><li>Share files securely with prospects and customers.</li><li>Seamlessly integrate 3rd party solutions through Egnyte including Google, Docusign and Microsoft Office.</li></ul>",
+				"teamsize":"9",
+				"technology":"Canvas App built-in Java, API Integrations, Native Salesforce"
+			},
+			"desc":"egnyt-logo-600.png"
+		},
+		{
+			"imagename": "zippia-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Career Counselling and Exploration",
+				"summary":"Zippia is a web based application that enables people make decisions regarding their career by looking at career progression trends. Its focussing on fresh graduates for now, by providing them various career paths that they can choose based on their major (and where they might end up down the line). They also have job listings integrated into their system and help candidates find appropriate entry level jobs. We have helped them engineer the entire product from scratch; backend, frontend and data science",
+				"teamsize":"3",
+				"technology":"NodeJS, AngularJS, MongoDB, Python, NLP (Text Classification, Part of Speech Tagging, Noun Phrase Extraction, Data Cleaning and Clustering)"
+			},
+			"desc":"zipia-logo-600.png"
+		},		
+		{
+			"imagename": "idc-logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Research & Publishing",
+				"summary":"IDC's BuyerPulse: Worldwide Services product is an online tool offering tangible metrics that helps service providers, customers, and the financial community with lead generation, purchase decisions, penetrating into specific industry, market, country as well as partner monitoring. It represents the largest and richest information repository of services deals in the world, over 65,000 services contracts representing a combined value of over $3.5 trillion.",
+				"teamsize":"6",
+				"technology":"Java 1.8, Maven, Spring MVC, Hibernate, SOLR, Bootstrap. Angular JS, Tomcat, Python, Scikit-learn, Mongo DB"
+			},
+			"desc":"idc-logo-600.png"
+		},
+		{
+			"imagename": "greenfence_logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Food Safety / Supply Chain",
+				"summary":"A Social platform which allows auditors, suppliers and food producers to collaborate with each other to solve the problems related to transparency and traceability in food supply chain. It seamlessly connects auditors , food growers , suppliers and retailers to collaborate among themselves using in built communication platform , message center and document storage to ensure best practice in growing , harvesting , transportation and storage are followed across their supply chains.",
+				"teamsize":"18",
+				"technology":"Java (Spring, Solr, Hibernate), Neo4j, Redis, Javascript (Angular JS), Ruby and Rails(ROR) , Heroku, Twilio, PostgreSQL, AWS (EC2, S3, IAM), Python/Django"
+			},
+			"desc":"greenfence-logo-600.png"
+		},
+		{
 			"imagename": "bayun-logo.png",
 			"maxWidth":"200px",
 			"parentx":"600px",
@@ -276,7 +263,32 @@
 				"technology":"Java (Spring MVC, Hibernate), iOS, Android, RSA encryption, Objective C, Swift"
 			},
 			"desc":"bayun-logo-600.png"
+		},
+		{
+			"imagename": "sente_logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Test Resource Management",
+				"summary":"<p>The Sente Group, Inc. is a prominent Test Resource Management firm that provides processes, software tools, knowledge content and expertise to market leaders in Aerospace, Defense and Telecommunications, for improving business performance in their test environments to achieve mission-critical objectives.</p><p>Metacube partners with the Sente Group on a variety of research and development projects by providing its expertise in architecture, design, development, research and quality assurance of Test Resource Management products and strategic tools on different platforms like Web, Windows & Mobile.</p>",
+				"teamsize":"8",
+				"technology":"ASP.NET, ASP.NET MVC, C#, React.Net, CSLA, Data Entity Framework, jQuery, DNN, Cizer RDLs, DevExpress tools, Windows Mobile 6.5, SQL CE, WCF Services, WebAPIs, SQL Server 2014, Selenium WebDriver, Eclipse, TestNG"
+			},
+			"desc":"sente-logo.png"
+		},
+		{
+			"imagename": "cognistix_logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Artificial Intelligence",
+				"summary":"Cognistx provides customised solutions helping companies deliver intelligent individualised offers based on customer behaviour, needs and preferences using cognitive computing technology.<br/>Metacube is developing SmartCognitives for Cognistx, a technology-agnostic adaptive intelligent machine-learning engine providing varied solutions like customised offers for retailers (MotoManager), chat assistance for call centers (ALIS Chatbot), assisstance for bars (SmartBart), clickstream interfaces for data driven companies, etc.",
+				"teamsize":"6",
+				"technology":"Java, Weka, RabbitMQ, Redis, Android SDK, Swift, AWS (Beanstalk, RDS, Elasticache), CloudAMQP"
+			},
+			"desc":"cognistx-logo-600.png"
 		}
-		
 	]
 }} 
