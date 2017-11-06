@@ -116,8 +116,8 @@ h1.panel-heading{
     color: #ffffff;
     margin: 0px 0 0px 0;
     position: absolute;
-    /*top: -14px;*/ /* old heading top position */
-	top: -292px; /* changed heading top position */
+    top: -14px; /* old heading top position */
+	/*top: -292px;*/ /* changed heading top position */
     left: 11px;
     -webkit-box-shadow: 4px 6px 21px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 6px 21px -5px rgba(0,0,0,0.75);
