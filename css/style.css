@@ -321,7 +321,7 @@ h1.panel-heading{
 .bottom-fixed-content  .back-content img{
 	    display: inline-block;
     max-width: 22%;
-    margin: 12px 0 0 190px;
+    margin: 12px 0 0 300px;
 }
 .bottom-fixed-content  .back-content img:nth-child(2){
 	max-width: 32%;
