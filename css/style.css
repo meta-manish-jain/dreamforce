@@ -286,6 +286,9 @@ h1.panel-heading{
 .second-block, .third-block{
 	height:600px;
 }
+.second-block{
+	margin-top: 70px;
+}
 .bottom-fixed-content{
 	transition: all 2s;
 	transform: rotateY(0);
