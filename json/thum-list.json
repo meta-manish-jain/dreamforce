@@ -84,17 +84,17 @@
 			"descsize": "57%"
 		},
 		{
-			"imagename": "qntl_lg_tm_hrz_rgb_pos.jpg",
+			"imagename": "iqvia-logo.png",
 			"maxWidth":"200px",
 			"parentx":"600px",
 			"parenty":"100px",
 			"content":{
 				"domain": "Health Care",
-				"summary":"QuintilesIMS Health is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis & Marketing programs </li></ul>",
+				"summary":"IQVIA is a leading global information and technology services company providing clients in the healthcare industry with end-to-end solutions to measure and improve their performance. Tap into the world’s largest and most diverse set of healthcare information—with global breadth and granular depth of actionable insights.<p>It’s technology and expertise allow it to improve:</p><ul><li>Sales-force effectiveness</li><li>Compensation plans</li><li>Market opportunity analysis and penetration strategies</li><li>Competitive analysis & Marketing programs </li></ul>",
 				"teamsize":"25",
 				"technology":"Integrations with DocuSign, Integrations with SAP, Native Salesforce"
 			},
-			"desc":"qntl_lg_tm_hrz_rgb_pos.jpg",
+			"desc":"iqvia-logo.png",
 			"descsize": "57%"
 			
 		},
