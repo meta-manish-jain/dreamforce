@@ -39,6 +39,8 @@
 
 .custom-panel .img-container{
 	overflow:hidden;
+	    display: flex !important;
+    align-items: center;
 }
 .description-content{
 	margin-top:20px;

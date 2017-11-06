@@ -121,7 +121,20 @@
 		</div>
 		
 	</div>
-	
+	<style>
+		marquee{position:absolute;width:95%; height: 50px; left: 0; bottom: 0;}
+		marquee ul li{display: inline; padding: 0 50px 0 10px;    font-size: 2.1vh;position: relative;}
+		marquee ul li:before{content:""; position: absolute; left: -21px; top: 7px; width: 1.2vh; height: 1.2vh;background: #000;    background: #666;    border-radius: 100%;}
+	</style>
+	<marquee>	
+	<ul>
+		<li>Started in 2004</li>
+		<li>Salesforce PDO partners since 2007</li>
+		<li>More than 500 engineers</li>
+		<li>250+ Salesforce expert with 150+ certified professionals</li>
+		<li>Based in Jaipur, India</li>
+	</ul>
+	<marquee>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -332,6 +345,7 @@
 		if(galleryData[counter].desc && galleryData[counter].desc != ""){
 			$("#desc-content .base-content .img-container").css("display","block");
 			$("#desc-content .base-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+'desc/'+galleryData[counter].desc);
+			
 		}else{
 			$("#desc-content .base-content .img-container").css("display","none");
 		}
@@ -531,7 +545,7 @@
 			$(".fourth-block").width(Math.round(getSecondBlockWidth));
 			$(".second-block").height(($(".df-menus").height() / 2) + 370);
 			$(".second-block .description-content").height($(".second-block").height() - 40);
-			$(".second-block .img-container").height(($(".second-block").height() / 2) - 200) ;
+			$(".second-block .img-container").height(($(".second-block").height() / 2) - 290) ;
 			rearrangeAllTiles(7.5,3);
 		}
 	}
