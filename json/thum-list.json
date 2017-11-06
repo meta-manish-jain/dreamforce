@@ -275,7 +275,9 @@
 				"teamsize":"8",
 				"technology":"ASP.NET, ASP.NET MVC, C#, React.Net, CSLA, Data Entity Framework, jQuery, DNN, Cizer RDLs, DevExpress tools, Windows Mobile 6.5, SQL CE, WCF Services, WebAPIs, SQL Server 2014, Selenium WebDriver, Eclipse, TestNG"
 			},
-			"desc":"sente_logo.png"
+			"desc":"sente_logo.png",
+			"bsize": "47%",
+			"descsize": "24%"
 		},
 		{
 			"imagename": "cognistix_logo.png",

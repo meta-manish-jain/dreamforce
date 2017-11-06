@@ -54,6 +54,22 @@
 				
 			</ul>
 		</div>
+		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
+			<div class="front-content">
+				<h2 class="about-heading">About Metacube</h2>
+				<ul class="about-lising">
+					<li>Started in 2004</li>
+					<li>Salesforce PDO partners since 2007</li>
+					<li>More than 500 engineers</li>
+					<li>250+ Salesforce expert with 150+ certified professionals</li>
+					<li>Based in Jaipur, India</li>
+				</ul>
+			</div>
+			<div class="back-content">
+				<img src="images/_sfmaster_PDO_Specialist_rgb.png" alt="" />
+				<img src="images/sfdc-consulting.png" alt="" />
+			</div>
+		</div>
 		<div class="col-lg-3 col-md-3 custom-panel second-block">		
 			<h1 class="panel-heading">Description</h1>
 			<div class="description-content" id="desc-content">
@@ -103,22 +119,7 @@
 				
 			</div>
 		</div>
-		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
-			<div class="front-content">
-				<h2 class="about-heading">About Metacube</h2>
-				<ul class="about-lising">
-					<li>Started in 2004</li>
-					<li>Salesforce PDO partners since 2007</li>
-					<li>More than 500 engineers</li>
-					<li>250+ Salesforce expert with 150+ certified professionals</li>
-					<li>Based in Jaipur, India</li>
-				</ul>
-			</div>
-			<div class="back-content">
-				<img src="images/_sfmaster_PDO_Specialist_rgb.png" alt="" />
-				<img src="images/2015sf_Partner_SilverConsultingPartner_logo_RGB.png" alt="" />
-			</div>
-		</div>
+		
 	</div>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -126,6 +127,74 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
+   /* apply background style function */
+   
+   (function($) {    
+  if ($.fn.style) {
+    return;
+  }
+
+  // Escape regex chars with \
+  var escape = function(text) {
+    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+  };
+
+  // For those who need them (< IE 9), add support for CSS functions
+  var isStyleFuncSupported = !!CSSStyleDeclaration.prototype.getPropertyValue;
+  if (!isStyleFuncSupported) {
+    CSSStyleDeclaration.prototype.getPropertyValue = function(a) {
+      return this.getAttribute(a);
+    };
+    CSSStyleDeclaration.prototype.setProperty = function(styleName, value, priority) {
+      this.setAttribute(styleName, value);
+      var priority = typeof priority != 'undefined' ? priority : '';
+      if (priority != '') {
+        // Add priority manually
+        var rule = new RegExp(escape(styleName) + '\\s*:\\s*' + escape(value) +
+            '(\\s*;)?', 'gmi');
+        this.cssText =
+            this.cssText.replace(rule, styleName + ': ' + value + ' !' + priority + ';');
+      }
+    };
+    CSSStyleDeclaration.prototype.removeProperty = function(a) {
+      return this.removeAttribute(a);
+    };
+    CSSStyleDeclaration.prototype.getPropertyPriority = function(styleName) {
+      var rule = new RegExp(escape(styleName) + '\\s*:\\s*[^\\s]*\\s*!important(\\s*;)?',
+          'gmi');
+      return rule.test(this.cssText) ? 'important' : '';
+    }
+  }
+
+  // The style function
+  $.fn.style = function(styleName, value, priority) {
+    // DOM node
+    var node = this.get(0);
+    // Ensure we have a DOM node
+    if (typeof node == 'undefined') {
+      return this;
+    }
+    // CSSStyleDeclaration
+    var style = this.get(0).style;
+    // Getter/Setter
+    if (typeof styleName != 'undefined') {
+      if (typeof value != 'undefined') {
+        // Set style property
+        priority = typeof priority != 'undefined' ? priority : '';
+        style.setProperty(styleName, value, priority);
+        return this;
+      } else {
+        // Get style property
+        return style.getPropertyValue(styleName);
+      }
+    } else {
+      // Get CSSStyleDeclaration
+      return style;
+    }
+  };
+})(jQuery);
+   
+   /* end */
    
    var createPriorityArray = [];
 	var slidecounter = 0;
@@ -170,7 +239,7 @@
 			console.log(e);
 		  }
 		});
-		setInterval(function(){
+		/*setInterval(function(){
 			slidingDetails(rotateContent[rotateCounter]);			
 			if(rotateCounter < 1){
 				rotateCounter++;
@@ -179,7 +248,7 @@
 			}
 			
 			
-		},2000);
+		},2000);*/
 		
 	})
 	
@@ -188,6 +257,9 @@
 		experTiesData = imgdata.gallerywidget.experties;
 		for(var i = 0; i < galleryData.length; i++){
 			$("#gallery-list").append('<li class="gallery-img col-lg-4 col-md-4" id="img'+i+'"><div class="inner-img" style="background:url('+imgdata.gallerywidget.imagepath+galleryData[i].imagename+')"></div></li>');
+			if(galleryData[i].bsize){
+				$("#img"+i+" .inner-img").style("background-size",galleryData[i].bsize, "important");
+			}
 		}
 		
 		setTimeout(function(){ addAnimation(galleryData,galleryData.length); }, 1000);
@@ -297,6 +369,12 @@
 		if(galleryData[counter].desc && galleryData[counter].desc != ""){
 			$("#desc-content .base-content .img-container").css("display","block");
 			$("#desc-content .base-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+'desc/'+galleryData[counter].desc);
+			if(galleryData[counter].descsize){
+				$("#desc-content .base-content .img-container img").style("max-width","auto");
+				$("#desc-content .base-content .img-container img").style("width",galleryData[counter].descsize);
+			}else{
+				$("#desc-content .base-content .img-container img").removeAttr("style");
+			}
 		}else{
 			$("#desc-content .base-content .img-container").css("display","none");
 		}
@@ -451,7 +529,7 @@
 			$(".first-block").height($(".df-menus").height() - 30);
 			$(".second-block").width(Math.round(getSecondBlockWidth));
 			$(".fourth-block").width(Math.round(getSecondBlockWidth));
-			$(".second-block").height(($(".df-menus").height() / 2) + 250);
+			$(".second-block").height(($(".df-menus").height() / 2) + 275);
 			$(".second-block .description-content").height($(".second-block").height() - 40);
 			$(".second-block .img-container").height(($(".second-block").height() / 2) - 200) ;
 			rearrangeAllTiles(7.5,3);
