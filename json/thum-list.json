@@ -70,17 +70,17 @@
 			"descsize": "57%"
 		},
 		{
-			"imagename": "twg-logo.png",
+			"imagename": "assurant-logo.png",
 			"maxWidth":"200px",
 			"parentx":"200px",
 			"parenty":"100px",
 			"content":{
 				"domain": "The Warranty Group",
-				"summary":"<p>TWG is one of the world's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts, implemented online billing, payment process, claim management for more than 12 customers</p>",
+				"summary":"<p>Assurant is one of the world's premier global providers of warranty solutions and related benefits. It’s a single-source solution that provides underwriting, claims administration, and marketing expertise to some of the world's leading manufacturers, distributors and retailers of consumer goods, as well as speciality insurance products and services for financial institutions.</p><p>Metacube has built end-to-end process for selling contracts, implemented online billing, payment process, claim management for more than 12 customers</p>",
 				"teamsize":"75",
 				"technology":"Lightning SLDS, Angular JS and React JS for UI, Integration with Paypal services, Service Cloud, Service Console, Communities, Integration with Drawloop Spring CM, Integration with Payonomy, Native Salesforce"
 			},
-			"desc":"twg-logo-600.png",
+			"desc":"assurant-logo.png",
 			"descsize": "57%"
 		},
 		{
@@ -96,7 +96,7 @@
 			},
 			"desc":"qntl_lg_tm_hrz_rgb_pos.jpg",
 			"descsize": "57%"
-			
+
 		},
 		{
 			"imagename": "blackpurl-logo.png",
@@ -181,7 +181,7 @@
 			},
 			"desc":"pfl-logo-600.png",
 			"descsize": "57%"
-		},		
+		},
 		{
 			"imagename": "mirage-logo.png",
 			"maxWidth":"200px",
@@ -195,9 +195,9 @@
 			},
 			"desc":"mirage-logo-600.png",
 			"descsize": "57%"
-		},		
+		},
 		{
-			"imagename": "ring-dna-logo.png",
+			"imagename": "ringdna.png",
 			"maxWidth":"200px",
 			"parentx":"600px",
 			"parenty":"100px",
@@ -209,9 +209,9 @@
 			},
 			"desc":"ringdna-logo-600.png",
 			"descsize": "57%"
-		},	
+		},
 		{
-			"imagename": "egnyte_logo.png",
+			"imagename": "egnyte-logo.png",
 			"maxWidth":"200px",
 			"parentx":"600px",
 			"parenty":"100px",
@@ -237,7 +237,7 @@
 			},
 			"desc":"zipia-logo-600.png",
 			"descsize": "57%"
-		},		
+		},
 		{
 			"imagename": "idc-logo.png",
 			"maxWidth":"200px",
@@ -310,4 +310,4 @@
 			"descsize": "57%"
 		}
 	]
-}} 
+}}
