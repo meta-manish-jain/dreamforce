@@ -126,6 +126,21 @@
 			"desc":"cadence-logo-600.png",
 			"descsize": "57%"
 		},
+    {
+			"imagename": "tranction-on-demand-logo.jpeg",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Embedded Systems",
+				"summary":"<p>Cadence Design Systems Inc., headquartered in San Jose, California, is a supplier of electronic design technologies and engineering services in the electronic design automation (EDA) industry.<br/>Metacube team (since 2013) work on various modules/tools to successfully implement their integration with Cadence Salesforce CRM (Remedy Force, ServiceMax, Apttus, Ecosign, Conga Report Builder).<br/>Metacube team works in a 24hr support model.</p>",
+				"teamsize":"17",
+				"technology":"Salesforce, Bootstrap, JQuery"
+			},
+			"desc":"tractionondemand-logo-600.png",
+      "bsize": "47%",
+			"descsize": "57%"
+		},
 		{
 			"imagename": "tcrm-logo.png",
 			"maxWidth":"200px",
@@ -168,6 +183,20 @@
 			"desc":"por-logo-600.png",
 			"descsize": "57%"
 		},
+    {
+			"imagename": "anm-logo.png",
+			"maxWidth":"200px",
+			"parentx":"600px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Reference Management",
+				"summary":"ReferenceEdge℠ is a 100% native Salesforce app purpose-built to manage customer advocate information and automate all the essential program functions.",
+				"teamsize":"5",
+				"technology":"Visualforce, Apex, Lightning Design System (SLDS), angular, integration with apple watch using Swift (powerful and intuitive programming language for macOS, iOS, watchOS and tvOS), integration with Influitive.<ul><li>100% Native Application - The whole app data and logic reside on salesforce.com platform</li><li>Managing multiple editions with different cost in single package</li><li>Custom license management for Full and Community Licenses based on editions.</li><li>Shared Contact - Allow a single contact to be associated to multiple accounts and be able to apply standard account-contact behavior.</li></ul>"
+			},
+			"desc":"anm-logo-600.png",
+			"descsize": "57%"
+		},
 		{
 			"imagename": "pfl_logo.png",
 			"maxWidth":"200px",
@@ -208,6 +237,7 @@
 				"technology":"JIRA, Slack, Automation-Selenium webdriver & TestNG"
 			},
 			"desc":"ringdna-logo-600.png",
+      "bsize": "65%",
 			"descsize": "57%"
 		},
 		{
@@ -225,20 +255,6 @@
 			"descsize": "57%"
 		},
 		{
-			"imagename": "zippia-logo.png",
-			"maxWidth":"200px",
-			"parentx":"200px",
-			"parenty":"100px",
-			"content":{
-				"domain": "Career Counselling and Exploration",
-				"summary":"Zippia is a web based application that enables people make decisions regarding their career by looking at career progression trends. Its focussing on fresh graduates for now, by providing them various career paths that they can choose based on their major (and where they might end up down the line). They also have job listings integrated into their system and help candidates find appropriate entry level jobs. We have helped them engineer the entire product from scratch; backend, frontend and data science",
-				"teamsize":"3",
-				"technology":"NodeJS, AngularJS, MongoDB, Python, NLP (Text Classification, Part of Speech Tagging, Noun Phrase Extraction, Data Cleaning and Clustering)"
-			},
-			"desc":"zipia-logo-600.png",
-			"descsize": "57%"
-		},
-		{
 			"imagename": "idc-logo.png",
 			"maxWidth":"200px",
 			"parentx":"200px",
@@ -250,6 +266,7 @@
 				"technology":"Java 1.8, Maven, Spring MVC, Hibernate, SOLR, Bootstrap. Angular JS, Tomcat, Python, Scikit-learn, Mongo DB"
 			},
 			"desc":"idc-logo-600.png",
+      "bsize": "65%",
 			"descsize": "57%"
 		},
 		{
@@ -294,6 +311,21 @@
 			"desc":"sente_logo.png",
 			"bsize": "47%",
 			"descsize": "24%"
+		},
+    {
+			"imagename": "eci_logo.png",
+			"maxWidth":"200px",
+			"parentx":"200px",
+			"parenty":"100px",
+			"content":{
+				"domain": "Test Resource Management",
+				"summary":"<p>The Sente Group, Inc. is a prominent Test Resource Management firm that provides processes, software tools, knowledge content and expertise to market leaders in Aerospace, Defense and Telecommunications, for improving business performance in their test environments to achieve mission-critical objectives.</p><p>Metacube partners with the Sente Group on a variety of research and development projects by providing its expertise in architecture, design, development, research and quality assurance of Test Resource Management products and strategic tools on different platforms like Web, Windows & Mobile.</p>",
+				"teamsize":"8",
+				"technology":"ASP.NET, ASP.NET MVC, C#, React.Net, CSLA, Data Entity Framework, jQuery, DNN, Cizer RDLs, DevExpress tools, Windows Mobile 6.5, SQL CE, WCF Services, WebAPIs, SQL Server 2014, Selenium WebDriver, Eclipse, TestNG"
+			},
+			"desc":"eci-logo-600.png",
+			"bsize": "47%",
+			"descsize": "54%"
 		},
 		{
 			"imagename": "cognistix_logo.png",
