@@ -105,7 +105,7 @@
 			"content":{
 				"domain": "Dealership Managment",
 				"summary":"<p>Dealership Managment System in Salesforce with an intuitive custom user interface and social feel to it, designed using Angular and Bootstrap.<br/>Blackpurl provides all major dealership functionalities and enhanced custom searching and reporting features typically not found on native salesforce products.<br/>Since 2014, Metacube has helped realize Blackpurl's vision of providing innovative features with reliability of Salesforces' platform.<br/>Metacube has also achieved a major milestone of reducing the time to get the customer live from several weeks or days to few hours.</p>",
-				"teamsize":"15",
+				"teamsize":"16",
 				"technology":"Visualforce, Angular, Apex, KendoUI"
 			},
 			"desc":"blackpurl-logo-600.png",
