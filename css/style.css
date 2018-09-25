@@ -246,6 +246,9 @@ h1.panel-heading{
 	padding:10px;
 	font-size:2vh;
 }
+p.about-txt ul, p.about-txt ol {
+    padding-left: 60px;
+}
 .right-item-list .list-group .about-heading{
 	font-size:2vh;
 	color: #337ab7;
