@@ -77,7 +77,7 @@
 			"content":{
 				"domain": "Warranty",
 				"summary":"<p>Assurant has more than a century of service and going strong. It traces its roots back to 1892 when LaCrosse Mutual Aid Association began offering disability insurance. Lacrosse later changed its name to Time Insurance Company. Assurant supports some of the world’s most recognizable brands, helping them solve their business challenges. We find solutions for the challenges that face everyday people, too Major challenges like a flooded house, expensive car repairs or unexpected funeral expenses. And smaller inconveniences like a broken phone, misplaced mobile device or malfunctioning appliance. We help our clients keep life running smoothly for 300 million people around the world.</p>",
-				"teamsize":"110",
+				"teamsize":"120",
 				"technology":"Salesforce, Mulesoft, informatica, Drawloop"
 			},
 			"desc":"assurant-logo.png",
@@ -190,7 +190,7 @@
 			"content":{
 				"domain": "Financial Services",
 				"summary":"<p>FinancialForce.com is one of the biggest companies working on Salesforce platform, backed by Unit4 and Salesforce.com itself. <br/>Metacube team are working on different FinancialForce core (FFA, PSA, HCM, SCM, SRP, Clicklink) product development and maintenance since 2011.<br/>Metacube has also helped with integrations with several other products e.g. Conga Composer, Google DFP etc.</p>",
-				"teamsize":"81",
+				"teamsize":"76",
 				"technology":"Salesforce, Sencha, Paypal, Google DFP, Google Maps Geocoding API, JIRA, Jenkins, Automation using Ruby-Capybara/Rspec"
 			},
 			"desc":"ff-logo-600.png",
