@@ -277,13 +277,13 @@ h1.panel-heading{
 	padding:3px 3px;
 }
 .bottom-fixed-content .about-lising{
-	padding-top: 5vh;
+	padding-top: 0vh;
 }
 .bottom-fixed-content .about-lising{
 	font-size: 2vh;
 }
 .bottom-fixed-content .about-lising li{
-	padding:0.05vh;
+	padding:0vh;
 }
 .second-block, .third-block{
 	height:600px;
@@ -311,6 +311,7 @@ h1.panel-heading{
 	top: 0;
 	bottom: 0;
 		opacity: 1;
+		text-align: center;
 		/*transform: rotateX(0);*/
 
 }
@@ -320,11 +321,12 @@ h1.panel-heading{
 }
 .bottom-fixed-content  .back-content img{
 	    display: inline-block;
-    max-width: 22%;
-    margin: 12px 0 0 300px;
+    max-width: 16%;
+    margin: 12px 0 0 0px;
 }
 .bottom-fixed-content  .back-content img:nth-child(2){
-	max-width: 32%;
+	max-width: 55%;
+	width: 55%;
 }
 .bottom-fixed-content .front-content.rotate-start{
 	opacity: 1;
