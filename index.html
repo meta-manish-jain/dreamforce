@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>DF-18-Presentation</title>
+    <title>Metacube @ DreamForce 19 - Presentation</title>
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -26,13 +26,13 @@
   <body>
     <div class="main-wrapper col-lg-12 col-md-12">
       <div class="logo-container col-lg-3 col-md-3" id="rotate3D">
-		<img src="images/logo.svg" />
+		<img src="images/logo.png" />
 	  </div>
-	  <div class="col-lg-6 col-md-6 mid-title">
-		<h1>We help innovators build products</h1>
+	  <div class="col-lg-7 col-md-7 mid-title">
+		<h1>Helping Innovators Disrupt &amp; Lead</h1>
 	  </div>
-	  <div class="df-logo col-lg-3 col-md-3">
-		<img src="images/dreamforce-logo.png" />
+	  <div class="sf-partner-logo col-lg-2 col-md-2">
+		<img src="images/2019_Salesforce_Partner_Badge_Silver_RGB.png" />
 	  </div>
     </div>
 	<!--<div class="slider-area col-lg-11 col-md-11">
@@ -81,15 +81,15 @@
 					<h2 class="about-heading domain-heading-style"><span class="domain values"></span></h2>
 					</div>
 					<div class="row-content">
-					<h2 class="about-heading">Summary</h2>
+					<h2 class="about-heading">Summary: </h2>
 					<p class="about-txt summary"></p>
 					</div>
 					<div class="row-content">
-					<h2 class="about-heading">Tools & Technologies</h2>
+					<h2 class="about-heading">Tools & Technologies: </h2>
 					<p class="about-txt innovation"></p>
 					</div>
 					<div class="row-content">
-					<h2 class="about-heading">Team Size : <span class="teamsize values"></span></h2>
+					<h2 class="about-heading">Team Size: <span class="teamsize values"></span></h2>
 					</div>
 				</div>
 
@@ -122,7 +122,7 @@
 
 	</div>
 	<style type="text/css">
-		marquee{position:absolute;width:95%; height: 139px; left: 0; bottom: 0;}
+		marquee{position:absolute;width:95%; height: 280px; left: 0; bottom: 0;}
 		marquee ul li{display: inline; padding: 0 10% 0 0px; font-size: 5vh;color: #337ab7;position: relative;}
 		/*marquee ul li:before{content:""; position: absolute; left: -50px; top: 30%; width: 2vh; height: 2vh;background: #000;    background: #666;    border-radius: 100%;}*/
 	</style>
@@ -130,9 +130,9 @@
 	<ul>
 		<li><span style="font-size: 4.5vh">★</span> Started in 2004</li>
 		<li><span style="font-size: 4.5vh">★</span> Salesforce PDO Partners since 2007</li>
-		<li><span style="font-size: 4.5vh">★</span> More than 600 Engineers</li>
-		<li><span style="font-size: 4.5vh">★</span> 300+ Salesforce Expert</li>
-		<li><span style="font-size: 4.5vh">★</span> 160+ Certified Salesforce Professionals</li>
+		<li><span style="font-size: 4.5vh">★</span> More than 700 Engineers</li>
+		<li><span style="font-size: 4.5vh">★</span> 400+ Salesforce Expert</li>
+		<li><span style="font-size: 4.5vh">★</span> 200+ Certified Salesforce Professionals</li>
 	</ul>
 	</marquee>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -531,22 +531,22 @@
 			$(".first-block").width($(".df-menus").width() - 30);
 			rearrangeAllTiles(5,1.8);
 		}
-		else if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "true" && jsondata.gallerywidget.sections.thirdblock == "false" && jsondata.gallerywidget.sections.fourthblock == "true"){
+		else if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "true" && jsondata.gallerywidget.sections.thirdblock == "false" && jsondata.gallerywidget.sections.fourthblock == "false"){
 			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 41));
 			$(".first-block").css("display", "block");
 			$(".second-block").css("display", "block");
 			$(".third-block").css("display", "none");
-			$(".fourth-block").css("display", "block");
-			var getFirstBlockWidth = getTotalWidth * (1 / 2) + 200;
+			$(".fourth-block").css("display", "none");
+			var getFirstBlockWidth = getTotalWidth * (3 / 5)+200;
 			var getSecondBlockWidth = (getTotalWidth - getFirstBlockWidth);
 			$(".first-block").width(Math.round(getFirstBlockWidth) - 30);
 			$(".first-block").height($(".df-menus").height() - 30);
 			$(".second-block").width(Math.round(getSecondBlockWidth));
 			$(".fourth-block").width(Math.round(getSecondBlockWidth));
-			$(".second-block").height(($(".df-menus").height() / 2) + 370);
+			$(".second-block").height(($(".df-menus").height() / 2) + 1000);
 			$(".second-block .description-content").height($(".second-block").height() - 60);
-			$(".second-block .img-container").height(($(".second-block").height() / 2) - 290) ;
-			rearrangeAllTiles(9,3);
+			$(".second-block .img-container").height(($(".second-block").height() / 2) - 700) ;
+			rearrangeAllTiles(10,3);
 		}
 	}
     </script>
