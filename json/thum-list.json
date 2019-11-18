@@ -314,7 +314,7 @@
   			"descsize": "57%"
   		},
       {
-  			"imagename": "anm-logo.png",
+  			"imagename": "logo-anm.png",
   			"maxWidth":"200px",
   			"parentx":"600px",
   			"parenty":"100px",
@@ -324,7 +324,7 @@
   				"teamsize":"5",
   				"technology":"Salesforce (Sales / Service), Pardot, StrataVar, Chargent and Expensify"
   			},
-  			"desc":"anm-logo-600.png",
+  			"desc":"logo-anm.png",
   			"descsize": "57%"
   		},
       {
@@ -348,7 +348,7 @@
   			"parentx":"200px",
   			"parenty":"100px",
   			"content":{
-  				"domain": "",
+  				"domain": "Service Cloud",
   				"summary":"Beam Suntory would like to Migrate data and flow from Desk.com to Service Cloud. Metacube is helping BeamSuntory with QA and Development team.",
   				"teamsize": "5",
   				"technology": "Apex, Flows, Service Cloud"
@@ -363,7 +363,7 @@
   			"parentx":"200px",
   			"parenty":"100px",
   			"content":{
-  				"domain": "",
+  				"domain": "Commerce Cloud",
   				"summary":"PWC required Commerce Cloud setup and custom development for better flow. Metacube is helping PWC team with QA and Development team.",
   				"teamsize": "4",
   				"technology": "Apex, Commerce Cloud"
