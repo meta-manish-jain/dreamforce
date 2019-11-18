@@ -61,6 +61,21 @@
   			"descsize": "57%"
   		},
       {
+  			"imagename": "Tier1Fin.png",
+  			"maxWidth":"200px",
+  			"parentx":"200px",
+  			"parenty":"100px",
+  			"content":{
+  				"domain": "Metacube helped Tier1 developed a platform independent solution for financial services industry. The application has support for desktop web browsers, iOS and Android phone/tablets devices.",
+  				"summary":"<p>Tier1 Financial Solutions is a leader in global relationship management software for the financial services industry. Tier1 empowers the clients to increase productivity, reduce relationship risk and enhance customer ROI. Tier1 augments the Salesforce platform with a capital markets grade security engine, coverage management and accelerated web and mobile workflows to support the unique requirements of Research, Sales & Trading, Corporate & Investment Banking and Investment Management professionals. Trusted by more than 19,000 users worldwide, its flexible, scalable solutions empower collaboration, transparency and communication across the institutional financial ecosystem.</p>",
+  				"teamsize": "20",
+  				"technology": "The hybrid application is developed using Salesforce Mobile SDK, ExtJS and Native plugins for Android/iOS, Tier1 plugin framework and javascript"
+  			},
+  			"desc":"Tier1Fin.png",
+  			"descsize": "57%"
+  		},
+		
+      {
   			"imagename": "financial-force.png",
   			"maxWidth":"200px",
   			"parentx":"200px",
@@ -74,20 +89,6 @@
   			"desc":"financial-force-600.png",
   			"descsize": "57%"
   		},
-      {
-  			"imagename": "trailhead-logo.png",
-  			"maxWidth":"200px",
-  			"parentx":"200px",
-  			"parenty":"100px",
-  			"content":{
-  				"domain": "Customer Relationship Management",
-  				"summary":"<p>Salesforce.com's Trailhead platform is widely used by millions of users for Learning about Salesforce features in a fun and interactive way. This also includes their Certification program. Metacube team is working with Trailhead Technical Operations and Infrastructure team to implement Service Cloud to allow users to submit cases related to Trailhead and Certification related problems. We are regularly working with team sinc April 2018 on enhancements and maintainences of Service Cloud and related features.<br><a href='https://trailhead.salesforce.com/help' target='_blank;'>https://trailhead.salesforce.com/help</a></p>",
-  				"teamsize": "16",
-  				"technology":"Service Cloud, Lightning UI, Lightning Components, Lightning Out, Einstein Bot, Mulesoft, Jitterbit, Salesforce"
-  			},
-  			"desc": "trailhead-logo.png",
-  			"descsize": "57%"
-  		},		
       {
   			"imagename": "iqvia-logo.png",
   			"maxWidth":"200px",
@@ -145,19 +146,20 @@
   			"descsize": "57%"
   		},		
       {
-  			"imagename": "Tier1Fin.png",
+  			"imagename": "trailhead-logo.png",
   			"maxWidth":"200px",
   			"parentx":"200px",
   			"parenty":"100px",
   			"content":{
-  				"domain": "Metacube helped Tier1 developed a platform independent solution for financial services industry. The application has support for desktop web browsers, iOS and Android phone/tablets devices.",
-  				"summary":"<p>Tier1 Financial Solutions is a leader in global relationship management software for the financial services industry. Tier1 empowers the clients to increase productivity, reduce relationship risk and enhance customer ROI. Tier1 augments the Salesforce platform with a capital markets grade security engine, coverage management and accelerated web and mobile workflows to support the unique requirements of Research, Sales & Trading, Corporate & Investment Banking and Investment Management professionals. Trusted by more than 19,000 users worldwide, its flexible, scalable solutions empower collaboration, transparency and communication across the institutional financial ecosystem.</p>",
-  				"teamsize": "20",
-  				"technology": "The hybrid application is developed using Salesforce Mobile SDK, ExtJS and Native plugins for Android/iOS, Tier1 plugin framework and javascript"
+  				"domain": "Customer Relationship Management",
+  				"summary":"<p>Salesforce.com's Trailhead platform is widely used by millions of users for Learning about Salesforce features in a fun and interactive way. This also includes their Certification program. Metacube team is working with Trailhead Technical Operations and Infrastructure team to implement Service Cloud to allow users to submit cases related to Trailhead and Certification related problems. We are regularly working with team sinc April 2018 on enhancements and maintainences of Service Cloud and related features.<br><a href='https://trailhead.salesforce.com/help' target='_blank;'>https://trailhead.salesforce.com/help</a></p>",
+  				"teamsize": "16",
+  				"technology":"Service Cloud, Lightning UI, Lightning Components, Lightning Out, Einstein Bot, Mulesoft, Jitterbit, Salesforce"
   			},
-  			"desc":"Tier1Fin.png",
+  			"desc": "trailhead-logo.png",
   			"descsize": "57%"
-  		},
+  		},		
+		
       {
   			"imagename": "cadence_logo.png",
   			"maxWidth":"200px",
