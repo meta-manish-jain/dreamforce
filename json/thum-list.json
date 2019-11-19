@@ -216,18 +216,18 @@
   			"desc":"erx-logo-600.png",
   			"descsize": "57%"
   		},
-      {
-  			"imagename": "pfl_logo.png",
+     {
+  			"imagename": "logo-anm.png",
   			"maxWidth":"200px",
   			"parentx":"600px",
   			"parenty":"100px",
   			"content":{
-  				"domain": "Tactile Marketing / Variable Data Printing",
-  				"summary": "PrintingForLess.com, Inc. operates as an e-commerce commercial printing company. To support Variable Data Printing (VDP), printing templates are designed with graphics and custom variable data, which are then processed for final print production.",
-  				"teamsize":"4",
-  				"technology":"FusionPro, Photoshop, Javascript, Salesforce"
+  				"domain": "Telecom Services",
+  				"summary":"ANM is top 10 fastest growing IT Service Providers in North America. ANM Project team at Metacube is handling ANM sales, account and professional services solution flow using FF and other product stacks. Team is also handling product integrations and process automation to make the overall experience smooth and less time-consuming.",
+  				"teamsize":"5",
+  				"technology":"Salesforce (Sales / Service), Pardot, StrataVar, Chargent and Expensify"
   			},
-  			"desc":"pfl-logo-600.png",
+  			"desc":"logo-anm.png",
   			"descsize": "57%"
   		},	
       {
@@ -315,20 +315,7 @@
 			"bsize": "65%",
   			"descsize": "57%"
   		},
-      {
-  			"imagename": "logo-anm.png",
-  			"maxWidth":"200px",
-  			"parentx":"600px",
-  			"parenty":"100px",
-  			"content":{
-  				"domain": "Telecom Services",
-  				"summary":"ANM is top 10 fastest growing IT Service Providers in North America. ANM Project team at Metacube is handling ANM sales, account and professional services solution flow using FF and other product stacks. Team is also handling product integrations and process automation to make the overall experience smooth and less time-consuming.",
-  				"teamsize":"5",
-  				"technology":"Salesforce (Sales / Service), Pardot, StrataVar, Chargent and Expensify"
-  			},
-  			"desc":"logo-anm.png",
-  			"descsize": "57%"
-  		},
+      
       {
   			"imagename": "logo-vroom.png",
   			"maxWidth":"200px",
