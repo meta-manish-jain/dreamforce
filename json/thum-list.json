@@ -66,9 +66,9 @@
   			"parentx":"200px",
   			"parenty":"100px",
   			"content":{
-  				"domain": "Metacube helped Tier1 developed a platform independent solution for financial services industry. The application has support for desktop web browsers, iOS and Android phone/tablets devices.",
+  				"domain": "CM & IB CRM solution provider",
   				"summary":"<p>Tier1 Financial Solutions is a leader in global relationship management software for the financial services industry. Tier1 empowers the clients to increase productivity, reduce relationship risk and enhance customer ROI. Tier1 augments the Salesforce platform with a capital markets grade security engine, coverage management and accelerated web and mobile workflows to support the unique requirements of Research, Sales & Trading, Corporate & Investment Banking and Investment Management professionals. Trusted by more than 19,000 users worldwide, its flexible, scalable solutions empower collaboration, transparency and communication across the institutional financial ecosystem.</p>",
-  				"teamsize": "20",
+  				"teamsize": "20+",
   				"technology": "The hybrid application is developed using Salesforce Mobile SDK, ExtJS and Native plugins for Android/iOS, Tier1 plugin framework and javascript"
   			},
   			"desc":"Tier1Fin.png",
