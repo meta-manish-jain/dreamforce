@@ -146,17 +146,17 @@
   			"descsize": "57%"
   		},		
       {
-  			"imagename": "trailhead-logo.png",
+  			"imagename": "logo-salesforce.png",
   			"maxWidth":"200px",
   			"parentx":"200px",
   			"parenty":"100px",
   			"content":{
   				"domain": "Customer Relationship Management",
-  				"summary":"<p>Salesforce.com's Trailhead platform is widely used by millions of users for Learning about Salesforce features in a fun and interactive way. This also includes their Certification program. Metacube team is working with Trailhead Technical Operations and Infrastructure team to implement Service Cloud to allow users to submit cases related to Trailhead and Certification related problems. We are regularly working with team sinc April 2018 on enhancements and maintainences of Service Cloud and related features.<br><a href='https://trailhead.salesforce.com/help' target='_blank;'>https://trailhead.salesforce.com/help</a></p>",
+  				"summary":"<p>Salesforce.com's Trailhead platform is widely used by millions of users for Learning about Salesforce features in a fun and interactive way. This also includes their Certification program. Metacube team is working with Trailhead Technical Operations and Infrastructure team to implement Service Cloud to allow users to submit cases related to Trailhead and Certification related problems. We are regularly working with team since April 2018 on enhancements and maintainences of Service Cloud and related features.<br><a href='https://trailhead.salesforce.com/help' target='_blank;'>https://trailhead.salesforce.com/help</a></p>",
   				"teamsize": "16",
   				"technology":"Service Cloud, Lightning UI, Lightning Components, Lightning Out, Einstein Bot, Mulesoft, Jitterbit, Salesforce"
   			},
-  			"desc": "trailhead-logo.png",
+  			"desc": "logo-salesforce.png",
   			"descsize": "57%"
   		},		
 		
@@ -343,36 +343,6 @@
   			"desc": "logo-vroom.png",
 			"bsize": "65%",
   			"descsize": "57%"
-  		},	
-      {
-  			"imagename": "logo-beam-suntory.png",
-  			"maxWidth":"200px",
-  			"parentx":"200px",
-  			"parenty":"100px",
-  			"content":{
-  				"domain": "Service Cloud",
-  				"summary":"Beam Suntory would like to Migrate data and flow from Desk.com to Service Cloud. Metacube is helping BeamSuntory with QA and Development team.",
-  				"teamsize": "5",
-  				"technology": "Apex, Flows, Service Cloud"
-  			},
-  			"desc": "logo-beam-suntory.png",
-			"bsize": "65%",
-  			"descsize": "57%"
-  		},		
-      {
-  			"imagename": "logo-pwc.png",
-  			"maxWidth":"200px",
-  			"parentx":"200px",
-  			"parenty":"100px",
-  			"content":{
-  				"domain": "Commerce Cloud",
-  				"summary":"PWC required Commerce Cloud setup and custom development for better flow. Metacube is helping PWC team with QA and Development team.",
-  				"teamsize": "4",
-  				"technology": "Apex, Commerce Cloud"
-  			},
-  			"desc": "logo-pwc.png",
-			"bsize": "65%",
-  			"descsize": "57%"
-  		}		
+  		}
 	]
 }}
