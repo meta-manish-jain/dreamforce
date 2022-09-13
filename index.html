@@ -28,7 +28,7 @@
       <div class="logo-container col-lg-3 col-md-3" id="rotate3D">
 		<img src="images/logo.png" />
 	  </div>
-	  <div class="col-lg-7 col-md-7 mid-title">
+	  <div class="col-md-10 mid-title">
 		<h1>Helping Innovators Disrupt &amp; Lead</h1>
 	  </div>
 	  <div class="sf-partner-logo col-lg-2 col-md-2">
@@ -47,8 +47,14 @@
 			</div>
 		</div>
 	</div>-->
+	<div class="hero-section bg-dark text-secondary text-center">
+		  <div class="hero-text">
+			<p class="fs-5 mb-4">Started in <span class="bold">2004</span>  &nbsp; &nbsp; |  &nbsp; &nbsp;  Partners since <span class="bold">2007</span>  &nbsp; &nbsp;  |  &nbsp; &nbsp;  <span class="bold">1100+</span> Engineers  &nbsp; &nbsp;  |  &nbsp; &nbsp;  <span class="bold">600+</span> Salesforce Experts  &nbsp; &nbsp;  |  &nbsp; &nbsp;  200+ Certified Professional</p>
+		  </div>
+	  </div>
+
 	<div class="df-menus col-lg-12 col-md-12">
-		<div class="col-lg-5 col-md-5 custom-panel first-block">
+		<div class="col-lg-12 col-md-12 custom-panel first-block">
 			<h1 class="panel-heading">Our Clients</h1>
 			<ul class="menu-list" id="gallery-list">
 
@@ -59,10 +65,10 @@
 				<h2 class="about-heading">About Metacube</h2>
 				<ul class="about-lising">
 					<li>Started in 2004</li>
-					<li>Partners since 2007</li>
-					<li>1100+ Engineers</li>
-					<li>600+ Salesforce Experts</li>
-					<li>200+ Certified Professional</li>
+					<li>Salesforce PDO partners since 2007</li>
+					<li>More than 500 engineers</li>
+					<li>250+ Salesforce expert with 150+ certified professionals</li>
+					<li>Based in Jaipur, India</li>
 				</ul>
 			</div>
 			<div class="back-content">
@@ -71,15 +77,17 @@
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 custom-panel second-block">
-			<!-- <h1 class="panel-heading">Description</h1> -->
 			<div class="description-content" id="desc-content">
 				<div class="base-content">
 					<div class="img-container">
 						<img src="images/blackpurl-logo.png" class="desc-img" alt=""/>
 					</div>
-					<div class="row-content">
-					<h2 class="about-heading domain-heading-style"><span class="domain values"></span></h2>
-					</div>
+					<!-- <div class="row-content">
+					<h2 class="about-heading domain-heading-style"><span class="domain values"></span>Team Size: <span class="teamsize values"></span></h2>
+					</div> -->
+					<!-- <div class="row-content">
+					<h2 class="about-heading domain-heading-style">Team Size: <span class="teamsize values"></span></h2>
+					</div> -->
 					<div class="row-content">
 					<h2 class="about-heading">Summary: </h2>
 					<p class="about-txt summary"></p>
@@ -88,9 +96,6 @@
 					<h2 class="about-heading">Tools & Technologies: </h2>
 					<p class="about-txt innovation"></p>
 					</div>
-					<div class="row-content">
-					<h2 class="about-heading">Team Size: <span class="teamsize values"></span></h2>
-					</div>
 				</div>
 
 			</div>
@@ -98,7 +103,7 @@
 							<a href="#" id="stop-slide"><i class="fa fa-stop-circle-o" aria-hidden="true"></i></a>
 							<a href="#" id="play-slide"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
 						</div>
-		</div>
+		</div> 
 		<div class="right-item-list col-lg-3 col-md-3 custom-panel third-block">
 			<h1 class="panel-heading">Our Experties</h1>
 			<div class="list-group" id="list-group-container">
@@ -126,7 +131,7 @@
 		marquee ul li{display: inline; padding: 0 10% 0 0px; font-size: 5vh;color: #337ab7;position: relative;}
 		/*marquee ul li:before{content:""; position: absolute; left: -50px; top: 30%; width: 2vh; height: 2vh;background: #000;    background: #666;    border-radius: 100%;}*/
 	</style>
-	<marquee scrollamount="36" scrolldelay="5">
+	<!-- <marquee scrollamount="36" scrolldelay="5">
 	<ul>
 		<li><span style="font-size: 4.5vh">★</span> Started in 2004</li>
 		<li><span style="font-size: 4.5vh">★</span> Salesforce PDO Partners since 2007</li>
@@ -134,7 +139,7 @@
 		<li><span style="font-size: 4.5vh">★</span> 400+ Salesforce Expert</li>
 		<li><span style="font-size: 4.5vh">★</span> 200+ Certified Salesforce Professionals</li>
 	</ul>
-	</marquee>
+	</marquee> -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -341,7 +346,8 @@
 	}
 
 	function addAftercontentAnimation(imgdata,galleryData,counter){
-		$("#desc-content .base-content").addClass("in");
+		$(".second-block").addClass("animation");
+		// $("#desc-content .base-content").addClass("in");
 		if(galleryData[counter].desc && galleryData[counter].desc != ""){
 			$("#desc-content .base-content .img-container").css("display","block");
 			$("#desc-content .base-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+'desc/'+galleryData[counter].desc);
@@ -374,12 +380,14 @@
 		}else{
 			$("#desc-content .base-content .innovation").parent().css("display","none");
 		}
-		setTimeout(function(){ if(playDescSlider){$("#desc-content .base-content").removeClass("in");} }, 7000);
+		setTimeout(function(){ if(playDescSlider){$("#desc-content .base-content").removeClass("in"); $(".second-block").removeClass("animation");}
+	}, 7000);
 
 	}
 
 	function loadContentOnClick(imgdata,galleryData,counter){
-		$("#desc-content .base-content").addClass("in");
+		$(".second-block").addClass("animation");
+		// $("#desc-content .base-content").addClass("in");
 		if(galleryData[counter].desc && galleryData[counter].desc != ""){
 			$("#desc-content .base-content .img-container").css("display","block");
 			$("#desc-content .base-content .img-container img").attr("src",imgdata.gallerywidget.imagepath+'desc/'+galleryData[counter].desc);
@@ -480,7 +488,7 @@
 	function addAnimation(items,num){
 		$("#gallery-list li.gallery-img").each(function(i){
 			$(this).addClass("in");
-			$(this).css("transition",'all '+(i+1)*0.2+'s');
+			$(this).css("transition",'all '+(i+1)*0.08+'s');
 		})
 		addAfterAnimation(items);
 	}
@@ -532,21 +540,21 @@
 			rearrangeAllTiles(5,1.8);
 		}
 		else if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "true" && jsondata.gallerywidget.sections.thirdblock == "false" && jsondata.gallerywidget.sections.fourthblock == "false"){
-			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 41));
+			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 200));
 			$(".first-block").css("display", "block");
 			$(".second-block").css("display", "block");
 			$(".third-block").css("display", "none");
 			$(".fourth-block").css("display", "none");
 			var getFirstBlockWidth = getTotalWidth * (3 / 5)+200;
 			var getSecondBlockWidth = (getTotalWidth - getFirstBlockWidth);
-			$(".first-block").width(Math.round(getFirstBlockWidth) - 30);
+			// $(".first-block").width(Math.round(getFirstBlockWidth) - 30);
 			$(".first-block").height($(".df-menus").height() - 30);
-			$(".second-block").width(Math.round(getSecondBlockWidth));
+			// $(".second-block").width(Math.round(getSecondBlockWidth));
 			$(".fourth-block").width(Math.round(getSecondBlockWidth));
-			$(".second-block").height(($(".df-menus").height() / 2) + 1000);
-			$(".second-block .description-content").height($(".second-block").height() - 60);
-			$(".second-block .img-container").height(($(".second-block").height() / 2) - 500) ;
-			rearrangeAllTiles(10,3);
+			// $(".second-block").height(($(".df-menus").height() / 2) + 1000);
+			// $(".second-block .description-content").height($(".second-block").height() - 60);
+			// $(".second-block .img-container").height(($(".second-block").height() / 2) - 500) ;
+			rearrangeAllTiles(10,1);
 		}
 	}
     </script>
