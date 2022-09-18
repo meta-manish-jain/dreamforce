@@ -22,6 +22,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<!-- Link to the file hosted on your server, -->
+	<link rel="stylesheet" href="css/splide.min.css">
+
+
+	<!-- or link to the CDN -->
+	<link rel="stylesheet" href="css/splide-core.min.css">
+	<script src="js/splide.min.js"></script>
   </head>
   <body>
     <div class="main-wrapper col-lg-12 col-md-12">
@@ -32,7 +39,7 @@
 		<h1>Helping Innovators Disrupt &amp; Lead</h1>
 	  </div>
 	  <div class="sf-partner-logo col-lg-2 col-md-2">
-		<img src="images/2019_Salesforce_Partner_Badge_Silver_RGB.png" />
+		<img src="images/SF-partner.png" />
 	  </div>
     </div>
 	<!--<div class="slider-area col-lg-11 col-md-11">
@@ -53,13 +60,44 @@
 		  </div>
 	  </div>
 
-	<div class="df-menus col-lg-12 col-md-12">
-		<div class="col-lg-12 col-md-12 custom-panel first-block">
-			<h1 class="panel-heading">Our Clients</h1>
-			<ul class="menu-list" id="gallery-list">
-
-			</ul>
-		</div>
+	<div class="df-menus col-md-12">
+		<div class="splide" role="group" aria-label="Splide Basic HTML Example">
+			<div class="splide__track">
+				  <ul class="splide__list">
+					  <li class="splide__slide" >
+						<div class="jumbotron slide1">
+							<h2>WE ARE AT <span class="color-blue"> DREAMFORCE.</span>  <br/>  LET'S CONNECT</h2>
+							<p>
+								Metacube is a leading software product development services company enabling Fortune 500 enterprises as well as startups to bring their software products to the market while allowing them to focus on their core competencies and market share.
+							</p>
+							<img src="images/expertise.png" width="auto" />
+						  </div>
+					  </li>
+					  <li class="splide__slide" >
+						<div class="jumbotron slide2">
+							<img src="images/slide2.png" />
+						</div>	
+					  </li>
+					  <li class="splide__slide" >
+						<div class="jumbotron slide3">
+							<h2>What makes us different</h2>
+							<img src="images/slide3.png" />
+						</div>	
+					  </li>
+					  <li class="splide__slide">
+						<div class="custom-panel first-block">
+							<h1 class="panel-heading">Our Clients</h1>
+							<ul class="menu-list" id="gallery-list">
+							</ul>
+						</div>						
+					  </li>
+				  </ul>
+			</div>
+		  </div>
+		  
+		  <script>
+				new Splide( '.splide' ).mount();
+		  </script>
 		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
 			<div class="front-content">
 				<h2 class="about-heading">About Metacube</h2>
@@ -542,7 +580,7 @@
 		else if(jsondata.gallerywidget.sections.firstblock == "true" && jsondata.gallerywidget.sections.secondblock == "true" && jsondata.gallerywidget.sections.thirdblock == "false" && jsondata.gallerywidget.sections.fourthblock == "false"){
 			$(".df-menus").height($(window).height() - ($(".main-wrapper").height() + 200));
 			$(".first-block").css("display", "block");
-			$(".second-block").css("display", "block");
+			$(".second-block").css("display", "none");
 			$(".third-block").css("display", "none");
 			$(".fourth-block").css("display", "none");
 			var getFirstBlockWidth = getTotalWidth * (3 / 5)+200;
@@ -554,7 +592,7 @@
 			// $(".second-block").height(($(".df-menus").height() / 2) + 1000);
 			// $(".second-block .description-content").height($(".second-block").height() - 60);
 			// $(".second-block .img-container").height(($(".second-block").height() / 2) - 500) ;
-			rearrangeAllTiles(10,1);
+			rearrangeAllTiles(3,1);
 		}
 	}
     </script>
