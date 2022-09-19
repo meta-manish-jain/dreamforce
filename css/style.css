@@ -68,10 +68,9 @@ body { font-family: lato, Helvetica, sans-serif;background: linear-gradient(145d
 .df-menus .splide__pagination__page.is-active { 
 	background: blue;
 }
-.splide__progress__bar {
-	height: 3px;
-	background: #ccc;
-  }
+
+.df-menus .carousel-control { background-image:none;}
+
 .custom-panel{
 	/* border: 1px solid #f1f1f1;
     border-radius: 7px; */
