@@ -61,43 +61,63 @@
 	  </div>
 
 	<div class="df-menus col-md-12">
-		<div class="splide" role="group" aria-label="Splide Basic HTML Example">
-			<div class="splide__track">
-				  <ul class="splide__list">
-					  <li class="splide__slide" >
-						<div class="jumbotron slide1">
-							<h2>WE ARE AT <span class="color-blue"> DREAMFORCE.</span>  <br/>  LET'S CONNECT</h2>
-							<p>
-								Metacube is a leading software product development services company enabling Fortune 500 enterprises as well as startups to bring their software products to the market while allowing them to focus on their core competencies and market share.
-							</p>
-							<img src="images/expertise.png" width="auto" />
-						  </div>
-					  </li>
-					  <li class="splide__slide" >
-						<div class="jumbotron slide2">
-							<img src="images/slide2.png" />
-						</div>	
-					  </li>
-					  <li class="splide__slide" >
-						<div class="jumbotron slide3">
-							<h2>What makes us different</h2>
-							<img src="images/slide3.png" />
-						</div>	
-					  </li>
-					  <li class="splide__slide">
-						<div class="custom-panel first-block">
-							<h1 class="panel-heading">Our Clients</h1>
-							<ul class="menu-list" id="gallery-list">
-							</ul>
-						</div>						
-					  </li>
-				  </ul>
-			</div>
-		  </div>
+		  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			</ol>
 		  
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<div class="jumbotron slide1">
+					<h2>WE ARE AT <span class="color-blue"> DREAMFORCE.</span>  <br/>  LET'S CONNECT</h2>
+					<p>
+						Metacube is a leading software product development services company enabling Fortune 500 enterprises as well as startups to bring their software products to the market while allowing them to focus on their core competencies and market share.
+					</p>
+					<img src="images/expertise.png" width="auto" />
+				  </div>
+			  </div>
+			  <div class="item">
+				<div class="jumbotron slide2">
+					<img src="images/slide2.png" />
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="jumbotron slide3">
+					<h2>What makes us different</h2>
+					<img src="images/slide3.png" />
+				</div>
+			</div>
+				<div class="item">
+					<div class="custom-panel first-block">
+						<h1 class="panel-heading">Our Clients</h1>
+						<ul class="menu-list" id="gallery-list">
+						</ul>
+					</div>
+			  </div>
+			</div>
+		  
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			  <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			  <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+
 		  <script>
-				new Splide( '.splide' ).mount();
+			$('.carousel').carousel({
+  			interval: 100
+				})
 		  </script>
+
 		<div class="bottom-fixed-content col-lg-6 col-md-6 custom-panel fourth-block">
 			<div class="front-content">
 				<h2 class="about-heading">About Metacube</h2>
@@ -596,5 +616,16 @@
 		}
 	}
     </script>
+			  <script>
+				var splide = new Splide( '.splide' );
+	
+	
+	splide.on( 'autoplay:playing', function ( rate ) {
+	  console.log( rate ); // 0-1
+	} );
+	
+	
+	splide.mount();
+			  </script>
   </body>
 </html>
