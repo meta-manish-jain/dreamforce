@@ -45,7 +45,7 @@ body { font-family: lato, Helvetica, sans-serif;background: linear-gradient(145d
 .hero-text{
 	line-height: 125px;
 	font-weight:400;
-	font-size:38px;
+	font-size:50px;
 }
 .hero-text p { margin-bottom:0;}
 
@@ -159,7 +159,7 @@ body { font-family: lato, Helvetica, sans-serif;background: linear-gradient(145d
 }
 h1.panel-heading{
 	font-family: 'Rubik', sans-serif;
-	font-size: 45px;
+	font-size: 70px;
     font-weight: 700;
     padding: 10px 0 50px;
     text-align: center;
@@ -169,11 +169,11 @@ h1.panel-heading{
 h1.panel-heading::after
 { 
 content:'';
-width:120px;
-height:8px;
+width:180px;
+height:9px;
 background:#2974FF;
 position:absolute;
-top:73px; left:48%; }
+top:105px; left:48%; }
 
 /*.df-menus{ width:100%; }*/
 .df-menus ul.menu-list{list-style:none;padding: 0; margin-left:10%;}
