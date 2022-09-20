@@ -244,8 +244,8 @@ top:73px; left:48%; }
 .slide1 h2 .color-blue { color:#4EBEFF; }
 .slide1.jumbotron p { font-weight:400; margin-top: 50px; max-width:50%; font-size:3vh;}
 
-.slide2 { text-align:center; background: rgb(0,57,104); background:url("../images/services-background.jpg");  background-size:cover; position:relative; z-index:-2;}
-.slide2::after { content:''; width:100%; height:100%; position:absolute;  top:0; left:0; background:rgba(0,0,0,0.5); z-index:-1;}
+.slide2 { text-align:center; background: rgb(0,57,104); background:url("../images/slide2-back.png");  background-size:100%; background-position:center bottom; background-repeat:no-repeat;}
+/* .slide2::after { content:''; width:100%; height:100%; position:absolute;  top:0; left:0; background:rgba(0,0,0,0.5); z-index:-1;} */
 .slide2 img { width:90%; }
 
 .slide3 { text-align:center; background:url(../images/salesforce-background.jpg); background-size:100%; background-position:center bottom; background-repeat:no-repeat; background-color:#f1fcff;}
