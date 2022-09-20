@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
 
 
 
@@ -61,11 +63,11 @@ body { font-family: lato, Helvetica, sans-serif;background: linear-gradient(145d
     left: 0;
     z-index: 9999;
     padding: 30px 0;
-    background: #1c1c1c;
+    background: #032042;
 }
 .mid-title h1 {
 	font-size: 52px;
-    color: #4187f2;
+    color: #4EBEFF;
 	font-weight: 600;
 	margin:0;
 }
@@ -156,29 +158,34 @@ body { font-family: lato, Helvetica, sans-serif;background: linear-gradient(145d
 	font-size: 20px;
 }
 h1.panel-heading{
-	display: inline-block;
-    font-size: 2vh;
-    font-weight: bold;
-    background: #4187f2;
-    padding: 10px;
-    color: #ffffff;
-    margin: 0px 0 0px 0;
-	border-radius:10px 10px 0px 0px;
-	margin-left:10%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 45px;
+    font-weight: 700;
+    padding: 10px 0 50px;
+    text-align: center;
+    color: #334143;
+	position: relative;
 }
+h1.panel-heading::after
+{ 
+content:'';
+width:120px;
+height:8px;
+background:#2974FF;
+position:absolute;
+top:73px; left:48%; }
+
 /*.df-menus{ width:100%; }*/
 .df-menus ul.menu-list{list-style:none;padding: 0; margin-left:10%;}
 .df-menus ul.menu-list li.gallery-img{
-	/*max-width: 28.5%;
-	height:70px;*/
     text-align: center;
-	border:solid 1px rgba(0,0,0,0.1);
+	border:solid 1px rgb(0 0 0 / 8%);
     /* -webkit-box-shadow: 4px 6px 21px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 4px 6px 21px -5px rgba(0,0,0,0.75);
 	box-shadow: 4px 6px 21px -5px rgba(0,0,0,0.75); */
 	background-color:#fff;
     margin: 10px 10px 0 10px;
-	margin: 0px;
+	margin: 4px;
 	float:left;
 	text-align:center;
 	display:block;
@@ -215,7 +222,7 @@ h1.panel-heading{
 }*/
 .df-menus ul.menu-list li.gallery-img.rotate{
 	transform: rotateY(-360deg);
-	border:solid 2px orange;
+	border:solid 2px #2974FF;
 }
 .df-menus ul.menu-list li.gallery-img .inner-img{
 	 display: block;
@@ -230,7 +237,8 @@ h1.panel-heading{
 .df-menus ul.menu-list li.gallery-img img{max-width:90%;}
 
 /* slider-area  */
-.slide1, .slide2, .slide3, .slide4 { height:100vh; padding-top:50px;}
+.slide1, .slide2, .slide3, .slide4, .slide6 { height:calc(100vh - 380px); padding-top:50px;}
+.slide2, .slide3, .slide4, .slide6 { display:flex; justify-content:center; align-items:center;}
 .slide1 { background:url("../images/slide-bg.jpg"); background-size:cover; padding-top:150px; padding-left: 100px; padding-right: 100px; color:#ffffff;}
 .slide1 h2 { font-size: 120px; font-family: 'Oswald', sans-serif; line-height: 140px;}
 .slide1 h2 .color-blue { color:#4EBEFF; }
@@ -240,15 +248,18 @@ h1.panel-heading{
 .slide2::after { content:''; width:100%; height:100%; position:absolute;  top:0; left:0; background:rgba(0,0,0,0.5); z-index:-1;}
 .slide2 img { width:90%; }
 
-.slide3 { text-align:center; background:url(../images/salesforce-background3.jpg); background-size:contain; background-position:center 0%; background-repeat:no-repeat; background-color:#f1fcff;}
+.slide3 { text-align:center; background:url(../images/salesforce-background.jpg); background-size:100%; background-position:center bottom; background-repeat:no-repeat; background-color:#f1fcff;}
 .slide3 img { width:90%;}
 
-.slide4 { background:url('../images/slide4-backgroun.jpg'); text-align:center; background-size:cover; position:relative; z-index:-2; color:#ffffff;}
+.slide4 { background:url('../images/slide4-backgroun.png'); text-align:center; background-size:cover; position:relative; z-index:-2; color:#ffffff;}
 .slide4::after { content:''; width:100%; height:100%; position:absolute;  top:0; left:0; background:rgba(0,0,0,0.4); z-index:-1;}
 .slide4 h2{ font-size:52px; font-family: 'Oswald', sans-serif; line-height:70px; }
 .slide4 img { width:85%;}
 
 .slide5 { background:url('../images/slide5.jpg');  background-size:cover; background-position:center center; }
+
+.slide6 { background:url('../images/slide5.jpg');  background-size:cover; background-position:center center;}
+.slide6 img { width:63%; }
 
 .slider-area{
 	min-height:300px;

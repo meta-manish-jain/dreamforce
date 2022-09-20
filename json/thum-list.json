@@ -62,48 +62,6 @@
                 "descsize": "57%"
             },
             {
-                "imagename": "chubb.png",
-                "maxWidth": "200px",
-                "parentx": "200px",
-                "parenty": "100px",
-                "content": {
-                    "domain": "Chubb",
-                    "summary": "<p>Chubb is the world's largest publicly traded property & casualty insurance company, serving consumers & companies of all sizes. Metacube is working on RPA and ML projects for them as part of an enterprise wide effrot to unlock efficiencies to the tune of $750 Million over a 5 year period.</p>",
-                    "teamsize": "30+",
-                    "technology": "Workfusion, Sorocco, ML, AutoIT, Selenum, Quarkus, Apache Camel"
-                },
-                "desc": "chubb.png",
-                "descsize": "57%"
-            },
-            {
-                "imagename": "poi.png",
-                "maxWidth": "200px",
-                "parentx": "200px",
-                "parenty": "100px",
-                "content": {
-                    "domain": "Point of Reference",
-                    "summary": "<p>Development and enhancement of their product RefEdge which is a 100% native Salesforce product used for managing references within an enterprise</p>",
-                    "teamsize": "10",
-                    "technology": "SSalesforce Development (Sales Cloud, Community), Lightning Design System, Lightning Web Component"
-                },
-                "desc": "poi.png",
-                "descsize": "57%"
-            },
-            {
-                "imagename": "mirage.png",
-                "maxWidth": "200px",
-                "parentx": "600px",
-                "parenty": "100px",
-                "content": {
-                    "domain": "Mirage",
-                    "summary": "<p>Maintenance and Enhancement of their CTI Adapter for Salesforce, Activation Server, All-in-one Protector. Developed new products like Audio Link and Archive Providing Sales and after sales support</p>",
-                    "teamsize": "7",
-                    "technology": "Salesforce Development, .Net, Salesforce Lead Conversion & Service Cloud"
-                },
-                "desc": "mirage.png",
-                "descsize": "57%"
-            },
-            {
                 "imagename": "assurant.png",
                 "maxWidth": "200px",
                 "parentx": "600px",
@@ -115,20 +73,6 @@
                     "technology": "Salesforce, Apex, Visualforce, SLDS,Jquery, Drawloop Integration, Web Services, Reports, FFA package"
                 },
                 "desc": "assurant.png",
-                "descsize": "57%"
-            },
-            {
-                "imagename": "tier1.png",
-                "maxWidth": "200px",
-                "parentx": "600px",
-                "parenty": "100px",
-                "content": {
-                    "domain": "Tier1",
-                    "summary": "<p>Tier1 Financial Solutions is a leader in global relationship management software for the financial services industry. Tier1 empowers the clients to increase productivity, reduce relationship risk and enhance customer ROI. Tier1 augments the Salesforce platform with a capital markets grade security engine, coverage management and accelerated web and mobile workflows to support the unique requirements of Research, Sales & Trading, Corporate & Investment Banking and Investment Management professionals. Trusted by more than 19,000 users worldwide, its flexible, scalable solutions empower collaboration, transparency and communication across the institutional financial ecosystem.</p>",
-                    "teamsize": "20+",
-                    "technology": "The hybrid application is developed using Salesforce Mobile SDK, ExtJS and Native plugins for Android/iOS, Tier1 plugin framework and javascript"
-                },
-                "desc": "tier1.png",
                 "descsize": "57%"
             },
             {
@@ -174,6 +118,62 @@
                 "descsize": "57%"
             },
             {
+                "imagename": "beamsuntory.png",
+                "maxWidth": "200px",
+                "parentx": "600px",
+                "parenty": "100px",
+                "content": {
+                    "domain": "BeamSuntory",
+                    "summary": "<p>Beam Suntory, Inc. is an American-founded, Japanese multinational company that produces alcoholic beverages. It is a subsidiary of Suntory, based in Osaka, Japan. It is the third largest producer of distilled beverages worldwide, behind Diageo and Pernod Ricard</p>",
+                    "teamsize": "60",
+                    "technology": "Salesforce (Marketing Cloud), Mulesoft, Drupal"
+                },
+                "desc": "beamsuntory.png",
+                "descsize": "57%"
+            },
+            {
+                "imagename": "poi.png",
+                "maxWidth": "200px",
+                "parentx": "200px",
+                "parenty": "100px",
+                "content": {
+                    "domain": "Point of Reference",
+                    "summary": "<p>Development and enhancement of their product RefEdge which is a 100% native Salesforce product used for managing references within an enterprise</p>",
+                    "teamsize": "10",
+                    "technology": "SSalesforce Development (Sales Cloud, Community), Lightning Design System, Lightning Web Component"
+                },
+                "desc": "poi.png",
+                "descsize": "57%"
+            },
+            {
+                "imagename": "mirage.png",
+                "maxWidth": "200px",
+                "parentx": "600px",
+                "parenty": "100px",
+                "content": {
+                    "domain": "Mirage",
+                    "summary": "<p>Maintenance and Enhancement of their CTI Adapter for Salesforce, Activation Server, All-in-one Protector. Developed new products like Audio Link and Archive Providing Sales and after sales support</p>",
+                    "teamsize": "7",
+                    "technology": "Salesforce Development, .Net, Salesforce Lead Conversion & Service Cloud"
+                },
+                "desc": "mirage.png",
+                "descsize": "57%"
+            },
+            {
+                "imagename": "tier1.png",
+                "maxWidth": "200px",
+                "parentx": "600px",
+                "parenty": "100px",
+                "content": {
+                    "domain": "Tier1",
+                    "summary": "<p>Tier1 Financial Solutions is a leader in global relationship management software for the financial services industry. Tier1 empowers the clients to increase productivity, reduce relationship risk and enhance customer ROI. Tier1 augments the Salesforce platform with a capital markets grade security engine, coverage management and accelerated web and mobile workflows to support the unique requirements of Research, Sales & Trading, Corporate & Investment Banking and Investment Management professionals. Trusted by more than 19,000 users worldwide, its flexible, scalable solutions empower collaboration, transparency and communication across the institutional financial ecosystem.</p>",
+                    "teamsize": "20+",
+                    "technology": "The hybrid application is developed using Salesforce Mobile SDK, ExtJS and Native plugins for Android/iOS, Tier1 plugin framework and javascript"
+                },
+                "desc": "tier1.png",
+                "descsize": "57%"
+            },
+            {
                 "imagename": "blackpurl.png",
                 "maxWidth": "200px",
                 "parentx": "200px",
@@ -202,34 +202,6 @@
                 "descsize": "57%"
             },
             {
-                "imagename": "beamsuntory.png",
-                "maxWidth": "200px",
-                "parentx": "600px",
-                "parenty": "100px",
-                "content": {
-                    "domain": "BeamSuntory",
-                    "summary": "<p>Beam Suntory, Inc. is an American-founded, Japanese multinational company that produces alcoholic beverages. It is a subsidiary of Suntory, based in Osaka, Japan. It is the third largest producer of distilled beverages worldwide, behind Diageo and Pernod Ricard</p>",
-                    "teamsize": "60",
-                    "technology": "Salesforce (Marketing Cloud), Mulesoft, Drupal"
-                },
-                "desc": "beamsuntory.png",
-                "descsize": "57%"
-            },
-            {
-                "imagename": "spryker.png",
-                "maxWidth": "200px",
-                "parentx": "600px",
-                "parenty": "100px",
-                "content": {
-                    "domain": "Spryker",
-                    "summary": "<p>Spryker enables companies to create winning transactional business models in B2B, Enterprise Marketplaces, Unified Commerce and B2C. It is the most modern cloud native platform-as-a-service solution with over 100% year-over-year growth, headless, API based, enterprise-ready, and it's loved by Sales, Marketeers, and Developers worldwide. Spryker is built out of true innovation to create the most flexible and agile commerce software on the market.</p>",
-                    "teamsize": "15",
-                    "technology": "PHP (Symfony), ReactJS, AngularJS, API"
-                },
-                "desc": "spryker.png",
-                "descsize": "57%"
-            },
-            {
                 "imagename": "asperato.png",
                 "maxWidth": "200px",
                 "parentx": "600px",
@@ -241,6 +213,20 @@
                     "technology": "Salesforce, Java, AWS"
                 },
                 "desc": "asperato.png",
+                "descsize": "57%"
+            },
+            {
+                "imagename": "chubb.png",
+                "maxWidth": "200px",
+                "parentx": "200px",
+                "parenty": "100px",
+                "content": {
+                    "domain": "Chubb",
+                    "summary": "<p>Chubb is the world's largest publicly traded property & casualty insurance company, serving consumers & companies of all sizes. Metacube is working on RPA and ML projects for them as part of an enterprise wide effrot to unlock efficiencies to the tune of $750 Million over a 5 year period.</p>",
+                    "teamsize": "30+",
+                    "technology": "Workfusion, Sorocco, ML, AutoIT, Selenum, Quarkus, Apache Camel"
+                },
+                "desc": "chubb.png",
                 "descsize": "57%"
             },
             {
@@ -269,6 +255,20 @@
                     "technology": "Salesforce Managed Package Development, SOAP and REST APIs, APEX, LWC, Experience Cloud (Communities), Integrations."
                 },
                 "desc": "continuoustech.png",
+                "descsize": "57%"
+            },
+            {
+                "imagename": "spryker.png",
+                "maxWidth": "200px",
+                "parentx": "600px",
+                "parenty": "100px",
+                "content": {
+                    "domain": "Spryker",
+                    "summary": "<p>Spryker enables companies to create winning transactional business models in B2B, Enterprise Marketplaces, Unified Commerce and B2C. It is the most modern cloud native platform-as-a-service solution with over 100% year-over-year growth, headless, API based, enterprise-ready, and it's loved by Sales, Marketeers, and Developers worldwide. Spryker is built out of true innovation to create the most flexible and agile commerce software on the market.</p>",
+                    "teamsize": "15",
+                    "technology": "PHP (Symfony), ReactJS, AngularJS, API"
+                },
+                "desc": "spryker.png",
                 "descsize": "57%"
             },
             {
